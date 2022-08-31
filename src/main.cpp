@@ -6,7 +6,7 @@
   of this software and associated documentation files.
   
   The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.bbb
+  copies or substantial portions of the Software.xxxxxx
 */
 
 #include <ESP8266WiFi.h>
