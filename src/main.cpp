@@ -25,6 +25,9 @@ uint8_t broadcastAddressX[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 enum PairingStatus {PAIR_REQUEST, PAIR_REQUESTED, PAIR_PAIRED, };
 PairingStatus pairingStatus = PAIR_REQUEST;
 
+enum MessageType {PAIRING, DATA,};
+MessageType messageType;
+
 
 // Define variables to store DHT readings to be sent
 float temperature;
@@ -100,10 +103,17 @@ void printIncomingReadings(){
 
 // Callback when data is received
 void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
-  if (len == sizeof(myData)){ 
+  Serial.print("Size of message : ");
+  Serial.print(len);
+  Serial.print(" from ");
+  printMAC(mac);
+  Serial.println();
+  uint8_t type = incomingData[0];
+  switch (type) {
+  case DATA :  
     memcpy(&incomingReadings, incomingData, sizeof(incomingReadings));
     Serial.print(len);
-    Serial.print(" bytes received from: ");
+    Serial.print(" Data bytes received from: ");
     printMAC(mac);
     Serial.println();
     incomingTemp = incomingReadings.temp;
@@ -115,9 +125,9 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
     } else { 
       digitalWrite(LED_BUILTIN, HIGH);
     }
-  }
+    break;
 
-  if (len == sizeof(pairingData)){  // we received pairing request from server
+  case PAIRING:
     memcpy(&pairingData, incomingData, sizeof(pairingData));
     if (pairingData.id == 0) {                // the message comes from server
       Serial.print("Pairing done for ");
@@ -127,11 +137,12 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
       Serial.print(" in ");
       Serial.print(millis()-start);
       Serial.println("ms");
-      esp_now_del_peer(pairingData.macAddr);
-      esp_now_del_peer(mac);
+      //esp_now_del_peer(pairingData.macAddr);
+      //esp_now_del_peer(mac);
       esp_now_add_peer(pairingData.macAddr, ESP_NOW_ROLE_COMBO, pairingData.channel, NULL, 0); // add the server to the peer list 
       pairingStatus = PAIR_PAIRED ;            // set the pairing status
     }
+    break;
   }  
 }
 
@@ -234,6 +245,7 @@ void loop() {
       getReadings();
 
       //Set values to send
+      myData.msgType = DATA;
       myData.id = 1;
       myData.temp = temperature;
       myData.hum = humidity;
