@@ -9,6 +9,39 @@
   copies or substantial portions of the Software.xxxxxx
 */
 
+/*JC Servaye
+Complete project details at https://https://github.com/Servayejc/esp8266_espnow
+
+Automatic pairing for ESP NOW
+
+In the server: 
+- The WiFi channel is determined by your router
+- Don't know the sender MAC
+
+In the senders: 
+- No access to the router
+- Don't know the routeur MAC
+
+The server is supposed running.
+
+The sender set esp now on channel 1
+The server add en entry with the broadcast address to his peer list
+The sender send a pairing request in broadcast
+
+If the server received the message we are on the good channel
+    The server add the received MAC to his peer list
+    The server reply to the MAC address a message containing his channel number
+
+    The sender replace the broadcast address by the server address in his peer list
+
+else 
+    The sender repeat the process on the next channel
+
+Notes: 
+  -Uncomment //#define SAVE_CHANNEL to save the channel in EEPROM 
+
+*/
+
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 
