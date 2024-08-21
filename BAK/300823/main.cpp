@@ -1,86 +1,56 @@
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 #include <Temperatures.h>
+#include <Common.h>
 #include <esp_now_pairing.h>
 #include <global.h>
 #include <Ticker.h>
 #include <map>
-#include "control.h"
 
-#include <EEPROM.h>
 
-#define DEEP_SLEAP_OFF 0
-#define DEEP_SLEAP_ON 1
+
+
 #define ON 0
 #define OFF 1
 #define THERMOSTAT 0
 #define THERMOMETER 1
 #define RELAY 2
-#define TH_ARRAY 3
-
-
-#define EEPROM_SIZE 1
-
-ADC_MODE(ADC_VCC);
-
- Control CTRL;
+#define NORMAL 0
+#define BATTERY 1
 
 uint8_t relaySetPoint;
 uint8_t relayStatus;
 
-bool ledPair = false;
-
-
-uint8_t defaultSP = 6;
+float defaultSP = 9;
 float temp_sp = defaultSP;
-uint8_t temp_SP[12] = {};  
-uint8_t control[12] = {}; 
-int curState[12] = {};
-
-unsigned long button_time = 0;  
-unsigned long last_button_time = 0; 
 
 unsigned long starting = millis();
 
-bool deepSleepMode = false;
-
+bool deepSleepMode = true;
 int sendInterval = 10;   // in seconds
 
 uint8_t deviceTypes[3] = {THERMOSTAT, THERMOMETER, RELAY};
-uint8_t modeTypes[2] = {DEEP_SLEAP_OFF, DEEP_SLEAP_ON};
-
 
 struct_message myData;
 struct_message setpoints;
 
 int readingId = 0;
+
 float temperature;
+
+int curState = 0;
+
 float Hysteresis = 0.5;
+
 int count = 0;
+
 bool ledState;
 
 void sendDevice();
 void sendAllDevices();
 
-byte rtcStore[2];
-
 Ticker timerSendAllDevices(sendAllDevices, sendInterval * 1000);   
 Ticker timerSendDevice(sendDevice, 100);
-
-void initSetPoints(int value){
-  for (byte i = 0; i < 12; i++){
-      temp_SP[i] = defaultSP;
-      curState[i] = 0;
-      control[i] = 0;
-  }
-}
-void printSetpoint(){
-    Serial.println("AFTER SETPOINT");
-    Serial.print("SP : ");
-    Serial.println(temp_SP[setpoints.deviceId]);
-    Serial.print("STATUS : ");
-    Serial.println(relayStatus);
-}
 
 void printData()
 {
@@ -91,14 +61,6 @@ void printData()
   Serial.println(myData.deviceId);
   Serial.print("DeviceType : ");
   Serial.println(myData.deviceType);
-  
-  Serial.print("Sensor Address : ");
-  for ( byte i = 0; i < 8; i++) {
-  Serial.print(myData.deviceAddress[i],HEX);
-  Serial.print(" ");
-  }
-  Serial.println();
-
   Serial.print("F1 : ");
   Serial.println(myData.F1);
   Serial.print("F2 : ");
@@ -112,9 +74,8 @@ void printData()
 
 void getReadings(uint8_t Ndx)
 {
-  if (Sensors.size() > Ndx) {
-    temperature = ReadTemp(Ndx);
-    memcpy(myData.deviceAddress, Sensors[Ndx].Address,8);
+  if (Sensors.size() > 0) {
+    temperature = ReadTemp(0);
   } else {
     temperature = 22.2;
   }
@@ -125,25 +86,22 @@ void getReadings(uint8_t Ndx)
   switch (deviceType)
   {
   case THERMOSTAT:
-    if (temperature < temp_SP[Ndx] - Hysteresis)
+    if (temperature < temp_sp - Hysteresis)
     {
-      curState[Ndx] = ON;
+      curState = ON;
     }
-    if (temperature > temp_SP[Ndx] + Hysteresis)
+    if (temperature > temp_sp + Hysteresis)
     {
-      curState[Ndx] = OFF;
+      curState = OFF;
     }
-
-    CTRL.setChannel(control[Ndx-1], curState[Ndx]);
-    CTRL.setAuto(true);
     myData.F1 = temperature;
-    myData.U1 = curState[Ndx];
-    myData.F2 = temp_SP[Ndx];
+    myData.U1 = curState;
+    myData.F2 = temp_sp;
     break;
 
   case THERMOMETER:
-    myData.F1 = temperature;
-    myData.U1 = curState[Ndx];
+    myData.F1 = temperature + 5;
+    myData.U1 = curState;
     break;
 
   case RELAY:
@@ -152,16 +110,8 @@ void getReadings(uint8_t Ndx)
     myData.U1 = relayStatus;
     myData.U2 = relaySetPoint;
     break;
-
-    case TH_ARRAY:
-    myData.F1 = temperature;
-    myData.F2 = -1;
-    myData.U1 = -1;
-    myData.U2 = -1;
-    break;
   }
-  esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
-  //printData();
+  // printData();
 }
 
 void on_esp_now_data_sent(uint8_t *mac_addr, uint8_t sendStatus)
@@ -184,23 +134,31 @@ void on_esp_now_data_recv(uint8_t *mac, uint8_t *incomingData, uint8_t len)
 
   case SETPOINTS:
     memcpy(&setpoints, incomingData, sizeof(setpoints));
+    Serial.print("------------New setpoint received : ");
+    Serial.println();
+    Serial.println(setpoints.msgType);
+    Serial.println(setpoints.deviceId);
+    Serial.println(setpoints.deviceType);
+    Serial.println(setpoints.U1);
+
     switch (setpoints.deviceType)
     {
     case THERMOSTAT: // thermostat
-
-      temp_SP[setpoints.deviceId-1] = setpoints.U1;
-      myData.U1 = temp_SP[setpoints.deviceId-1];
+      temp_sp = setpoints.U1;
       break;
-    
     case RELAY: // Relay
       relaySetPoint = setpoints.U1;
       relayStatus = setpoints.U1;
-      digitalWrite(16, relayStatus); // 
+      digitalWrite(16, relayStatus);
       myData.U1 = relayStatus;
       break;
     }
-    getReadings(setpoints.deviceId-1);
-    // printSetPoint();
+    getReadings(setpoints.deviceId);
+    Serial.println("AFTER SETPOINT");
+    Serial.print("SP : ");
+    Serial.println(temp_sp);
+    Serial.print("STATUS : ");
+    Serial.println(relayStatus);
     esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
     break;
   }
@@ -209,31 +167,25 @@ void on_esp_now_data_recv(uint8_t *mac, uint8_t *incomingData, uint8_t len)
 void setup()
 {
   Serial.begin(74880);
-  
-  pinMode(D5, OUTPUT);  
-  digitalWrite(D5, OFF);
-  pinMode(16, OUTPUT);
-  digitalWrite(16, 0);
 
-  pinMode(12, INPUT_PULLUP);
-  deepSleepMode = !digitalRead(12);
-     
+  pinMode(D5, OUTPUT);        // ???
+  digitalWrite(D5, OFF);
+  //pinMode(LED_BUILTIN, OUTPUT);
+  // pinMode(16, OUTPUT);
+
   init_esp_now();
   register_recv_cb(&on_esp_now_data_recv);
-  
-  
-  CTRL.test();
 
-  searchAll();
+  Serial.println(search());
   Serial.print("En of search : ");
   Serial.print(millis() - starting);
   Serial.println("ms");
-  StartAllConversion();
+  StartConversion();
 
   setpoints.F1 = defaultSP;
   setpoints.U1 = 0;
   
-  if (deepSleepMode)  { 
+  if (deepSleepMode){ 
     timerSendDevice.start();
   } else {
     timerSendAllDevices.start();
@@ -246,7 +198,6 @@ void sendDevice()       //100 ms
 { 
   if (pairingData.deviceTypes[timerSendDevice.counter()-1] == 255){
     timerSendDevice.stop();
-    StartAllConversion();
     if (deepSleepMode){ 
       timerSendDevice.stop();
       Serial.print("I'm awake from ");
@@ -257,7 +208,10 @@ void sendDevice()       //100 ms
       ESP.deepSleep(sendInterval * 1000000);
     }
   } else {
+    Serial.print("Send data of device ");
+    Serial.println(timerSendDevice.counter());
     getReadings(timerSendDevice.counter()-1);
+    esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
   }
 }
 
@@ -270,7 +224,8 @@ void sendAllDevices()     // 500 ms
 }
 
 void loop()
-{   
+{
+  
   if (autoPairing() == PAIR_PAIRED)
   {
     if (!deepSleepMode){ 

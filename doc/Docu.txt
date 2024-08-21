@@ -1,0 +1,3 @@
+Type		Power		Devices   Sleep(s) 	Freq(s)	 Duration(h)
+							
+ESP12F		2 x AA		3		  0			10		 17
