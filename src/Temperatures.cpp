@@ -9,7 +9,10 @@
 
 //OneWire* oneWireBus = new OneWire[4];
 
-OneWire oneWireBus[] = {OneWire(13)};   
+//OneWire oneWireBus[] = {OneWire(D4), OneWire(D3)};  //ID 2
+
+
+OneWire oneWireBus[] = {OneWire(D4)}; // ID 2 - 4  
 
 NewSensorsList NewSensors;
 SensorsList Sensors;

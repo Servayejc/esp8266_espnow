@@ -4,6 +4,21 @@
 
 #define CONTROL  0x38
 
+/*
+Control::setChannel(uint8_t channel, bool value)
+	Channel numbers from 0 to 6 are used by 
+    home made thermostat control 
+
+	Channel numbers from 100 to 110 controls directly esp8266 IO ports 
+		100 > D0 .. 110 > D10
+
+	Caution:
+	- D3 and D4 are used to connect 1-wire thermometers.
+	- D0 are used to wakeup from deep sleep.	
+*/
+
+uint8_t CtoIO[11] = {16, 5, 4, 0, 2, 14, 12, 13, 15, 3, 1};
+
 Control::Control() {
   Wire.begin(D1,D2); 
 }
@@ -47,14 +62,19 @@ uint8_t Control::getStatus(){
 }
 
 void Control::setChannel(uint8_t channel, bool value){
-	Serial.print(channel);
-    Serial.print(" : ");
-    Serial.println(value);
-	
-	if (channel == 9){
-      digitalWrite(D5, value);
-    } else {
-      if ((channel > -1) && (channel < 6)){
+	//Serial.print(channel);
+	//Serial.print(" : ");
+	//Serial.println(value);
+
+	if (channel >= 100){
+	//	Serial.println("-------");
+		//digitalWrite(D5, value);
+		digitalWrite(CtoIO[channel-100], !value);
+	//	Serial.print(channel);
+	//	Serial.print(" > ");
+	//	Serial.println(CtoIO[channel-100]);
+	} else {
+	    if ((channel > -1) && (channel < 6)){
 		if (!value){
 			bitSet(output,channel);
 		} else {
@@ -65,6 +85,7 @@ void Control::setChannel(uint8_t channel, bool value){
 		Wire.endTransmission();
 	  }
 	}
+
 }
 
 void Control::setAuto(bool state){

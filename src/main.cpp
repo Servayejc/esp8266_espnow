@@ -6,6 +6,7 @@
 #include <Ticker.h>
 #include <map>
 #include "control.h"
+#include "config.h"
 
 #include <EEPROM.h>
 
@@ -21,6 +22,8 @@
 
 #define EEPROM_SIZE 1
 
+uint8_t simulateTemps[12] = {}; 
+
 ADC_MODE(ADC_VCC);
 
  Control CTRL;
@@ -30,12 +33,8 @@ uint8_t relayStatus;
 
 bool ledPair = false;
 
+struct_dataRTC RTCdata = {};
 
-uint8_t defaultSP = 6;
-float temp_sp = defaultSP;
-uint8_t temp_SP[12] = {};  
-uint8_t control[12] = {}; 
-int curState[12] = {};
 
 unsigned long button_time = 0;  
 unsigned long last_button_time = 0; 
@@ -55,7 +54,7 @@ struct_message setpoints;
 
 int readingId = 0;
 float temperature;
-float Hysteresis = 0.5;
+//float Hysteresis = 0.5;
 int count = 0;
 bool ledState;
 
@@ -63,21 +62,58 @@ void sendDevice();
 void sendAllDevices();
 
 byte rtcStore[2];
+uint16_t validity = 4582;
 
 Ticker timerSendAllDevices(sendAllDevices, sendInterval * 1000);   
 Ticker timerSendDevice(sendDevice, 100);
 
-void initSetPoints(int value){
-  for (byte i = 0; i < 12; i++){
-      temp_SP[i] = defaultSP;
-      curState[i] = 0;
-      control[i] = 0;
-  }
+void saveRTCdata(bool init){
+    RTCdata.validity = validity;
+    if (init) {  
+        for (byte i = 0; i < 12; i++){
+            RTCdata.temp_SP[i] = 20;
+            RTCdata.curState[i] = 0;
+        }
+    }
+    EEPROM.put(0,RTCdata);
+    EEPROM.commit();
 }
+
+void readRTCdata(){
+  // TODO Read data from RTC Mem
+  Serial.print("RTCdata size : "); 
+  Serial.println(sizeof(RTCdata));
+//ESP.rtcUserMemoryRead (16, (uint32_t*) &RTCdata , sizeof(RTCdata ));
+  EEPROM.begin(512);
+  EEPROM.get(0, RTCdata);
+    Serial.print("Validity : " );
+    Serial.println(RTCdata.validity);
+ if (RTCdata.validity != validity) { 
+    Serial.println("RTCdata not present"); 
+    saveRTCdata(true);
+    EEPROM.get(0, RTCdata); 
+    //ESP.rtcUserMemoryRead (16, (uint32_t*) &RTCdata , sizeof(RTCdata ));
+  }else{
+    Serial.println("RTCdata present");
+    Serial.print("Validity : " );
+    Serial.println(RTCdata.validity);
+    
+    for (byte i = 0; i < 12; i++){
+        Serial.print(" [ ");
+        Serial.print(RTCdata.temp_SP[i]);
+        Serial.print(", ");
+        Serial.print(RTCdata.curState[i]);
+        Serial.print(" ] ");
+        Serial.print("-");
+    }
+    Serial.println();
+  }  
+}
+
 void printSetpoint(){
     Serial.println("AFTER SETPOINT");
     Serial.print("SP : ");
-    Serial.println(temp_SP[setpoints.deviceId]);
+    Serial.println(RTCdata.temp_SP[setpoints.deviceId]);
     Serial.print("STATUS : ");
     Serial.println(relayStatus);
 }
@@ -110,13 +146,19 @@ void printData()
   Serial.println("-------------------");
 }
 
+
+
+
+
 void getReadings(uint8_t Ndx)
 {
   if (Sensors.size() > Ndx) {
     temperature = ReadTemp(Ndx);
     memcpy(myData.deviceAddress, Sensors[Ndx].Address,8);
   } else {
-    temperature = 22.2;
+    // simulation
+    temperature = simulateTemps[Ndx];
+    //temperature = 22.2;
   }
   myData.msgType = DATA;
   myData.deviceId = pairingData.deviceIds[Ndx];
@@ -125,25 +167,30 @@ void getReadings(uint8_t Ndx)
   switch (deviceType)
   {
   case THERMOSTAT:
-    if (temperature < temp_SP[Ndx] - Hysteresis)
+    if (temperature < RTCdata.temp_SP[Ndx] - 0.5)
     {
-      curState[Ndx] = ON;
+       RTCdata.curState[Ndx] = ON;
     }
-    if (temperature > temp_SP[Ndx] + Hysteresis)
+    if (temperature > RTCdata.temp_SP[Ndx] + 0.5)
     {
-      curState[Ndx] = OFF;
+       RTCdata.curState[Ndx] = OFF;
     }
+ 
+    Serial.print(RTCdata.control[Ndx]);
+    Serial.print("  :  ");
+    Serial.println(RTCdata.curState[Ndx]);  
+    
+    CTRL.setChannel(RTCdata.control[Ndx]-1, (bool)RTCdata.curState[Ndx]);
 
-    CTRL.setChannel(control[Ndx-1], curState[Ndx]);
-    CTRL.setAuto(true);
+    //CTRL.setAuto(true);
     myData.F1 = temperature;
-    myData.U1 = curState[Ndx];
-    myData.F2 = temp_SP[Ndx];
+    myData.U1 = (uint8_t)RTCdata.curState[Ndx];
+    myData.F2 = RTCdata.temp_SP[Ndx];
     break;
 
   case THERMOMETER:
     myData.F1 = temperature;
-    myData.U1 = curState[Ndx];
+    myData.U1 = (uint8_t)RTCdata.curState[Ndx];
     break;
 
   case RELAY:
@@ -188,8 +235,8 @@ void on_esp_now_data_recv(uint8_t *mac, uint8_t *incomingData, uint8_t len)
     {
     case THERMOSTAT: // thermostat
 
-      temp_SP[setpoints.deviceId-1] = setpoints.U1;
-      myData.U1 = temp_SP[setpoints.deviceId-1];
+      RTCdata.temp_SP[setpoints.deviceId-1] = setpoints.U1;
+      myData.U1 = RTCdata.temp_SP[setpoints.deviceId-1];
       break;
     
     case RELAY: // Relay
@@ -199,6 +246,7 @@ void on_esp_now_data_recv(uint8_t *mac, uint8_t *incomingData, uint8_t len)
       myData.U1 = relayStatus;
       break;
     }
+   // saveRTCdata(); 
     getReadings(setpoints.deviceId-1);
     // printSetPoint();
     esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
@@ -210,36 +258,61 @@ void setup()
 {
   Serial.begin(74880);
   
-  pinMode(D5, OUTPUT);  
-  digitalWrite(D5, OFF);
+  pinMode(D8, OUTPUT);  
+  digitalWrite(D8, 0);
   pinMode(16, OUTPUT);
   digitalWrite(16, 0);
-
-  pinMode(12, INPUT_PULLUP);
-  deepSleepMode = !digitalRead(12);
-     
-  init_esp_now();
+ 
+  // register esp_now data_reed callback  
+  init_esp_now(); 
   register_recv_cb(&on_esp_now_data_recv);
   
-  
+  // retrieve important data after power failure
+  readRTCdata();
+  RTCdata.validity = RTCdata.validity + 1;
+  saveRTCdata(false);
+ 
+  // test control board
   CTRL.test();
 
+  //search 1-wire commected 
   searchAll();
   Serial.print("En of search : ");
   Serial.print(millis() - starting);
   Serial.println("ms");
+  
+  // read all 1-wire data
   StartAllConversion();
 
-  setpoints.F1 = defaultSP;
-  setpoints.U1 = 0;
+  //setpoints.F1 = defaultSP;
+  //setpoints.U1 = 0;
   
+  //Deep sleep control
+  pinMode(12, INPUT_PULLUP);
+  deepSleepMode = !digitalRead(12);
   if (deepSleepMode)  { 
     timerSendDevice.start();
   } else {
     timerSendAllDevices.start();
   }
 
+  for (byte i = 0; i < 12; i++){
+    simulateTemps[i] = 15+i; 
+  }  
+
   Serial.println("Setup done");
+}
+
+void updateSimulation(){
+  for (byte i = 0; i < 12; i++){
+    simulateTemps[i] += 1;
+    if (simulateTemps[i] > 20+i){
+      simulateTemps[i] = 15+i;
+    } 
+   // Serial.print(simulateTemps[i]);
+   // Serial.print("  ");
+  }  
+  //Serial.println();
 }
 
 void sendDevice()       //100 ms
@@ -257,6 +330,7 @@ void sendDevice()       //100 ms
       ESP.deepSleep(sendInterval * 1000000);
     }
   } else {
+    updateSimulation();
     getReadings(timerSendDevice.counter()-1);
   }
 }
@@ -278,4 +352,5 @@ void loop()
     }  
     timerSendDevice.update();
   }
+  
 }

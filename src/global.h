@@ -2,16 +2,17 @@
 #define GLOBAL_H_
 
 #include <arduino.h>
-
 #include <vector>
 
-//#define SERVER_TEST
-
+#define BOARD_ID 3        // see Struct.json in server/data
+#define SERVER_TEST
   #ifdef SERVER_TEST
-    #define SERVER_ID 99 //test
+    #define SERVER_ID 99  //test
   #else
     #define SERVER_ID 10  //production
   #endif
+
+ // connect GPI0 12 (D6) to ground to set deepsleep mode
 
 
 extern int chan;
@@ -19,9 +20,6 @@ extern int pingTime;
 
 extern bool ledPair;
 
-
-
-extern uint8_t temp_SP[12];  
 extern uint8_t control[12]; 
 extern int curState[12];
 
@@ -48,14 +46,13 @@ typedef struct struct_reset
 } struct_reset;
 
 
-/*typedef struct struct_SP
+typedef struct struct_SP
 {
   uint8_t msgType;
   uint8_t PeerID;
   uint8_t ID;
   float temp_sp;
-} struct_SP;*/
-
+} struct_SP;
 typedef struct struct_message
 {
   uint8_t msgType;  
@@ -87,12 +84,19 @@ typedef struct struct_pairing
   uint8_t controlNdx[12];
 } struct_pairing;
 
+typedef struct struct_dataRTC {
+  uint16_t validity;
+  uint8_t temp_SP[12] = {}; 
+  uint8_t curState[12] = {}; 
+  uint8_t control[12] = {}; 
+} struct_dataRTC; 
+
+extern struct_dataRTC RTCdata;
 extern struct_message incomingReadings;
 extern struct_message outgoingSetpoints;
 extern struct_pairing pairingData;
 extern struct_message setpoints;
 extern struct_ping pingData;
-
 
 typedef struct PeerEntry {
 	uint8_t Ndx;
@@ -105,8 +109,6 @@ typedef struct PeerEntry {
 
 typedef std::vector<PeerEntry> PeerList;
 extern PeerList Peers;
-
-
 
 // DS18B20
 struct NewSensorEntry {
@@ -131,5 +133,6 @@ struct SensorEntry {
 
 typedef std::vector<SensorEntry> SensorsList;
 extern SensorsList Sensors;
+
 
 #endif

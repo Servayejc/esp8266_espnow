@@ -7,7 +7,7 @@
 #include <global.h>
 
 
-#define BOARD_ID 4
+//#define BOARD_ID 2
 
 
 extern uint8_t serverAddress[6];

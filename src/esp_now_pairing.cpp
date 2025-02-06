@@ -1,6 +1,7 @@
 #include <esp_now_pairing.h>
 #include <global.h>
 #include <Ticker.h>
+#include "Config.h"
 
 #define DEBUG_INCOMING_DATA
 #define DEBUG_PAIRING_DATA
@@ -113,6 +114,8 @@ void printPairingData(){
 
 void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
   uint8_t type = incomingData[0];
+  
+
   #ifdef DEBUG_INCOMING_DATA
     Serial.print("Size of message : ");
     Serial.print(len);
@@ -134,9 +137,9 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
   
   case RESET:
     Serial.println("=================== Reset Pairing ===============");
-    if (incomingData[1] == SERVER_ID){ 
-      resetPairing();
-      digitalWrite(16, 0);
+    if (incomingData[1] == SERVER_ID){  //
+      //resetPairing();
+      ESP.restart();
     }  
     break;
   
@@ -157,8 +160,11 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
       
       Serial.println("control");
       for(int i = 0; i < 12; i++){
-        control[i] = pairingData.controlNdx[i];    
+        RTCdata.control[i] = pairingData.controlNdx[i]; 
+        Serial.print("Ctrl Ndx : ");
+        Serial.println(RTCdata.control[i]);   
       }
+      //RTCdata.control[0] = 9;  // TODO check why this code*/
       Serial.println();
 
       printPairingData();
@@ -275,7 +281,7 @@ void init_esp_now() {
   // Set device as a Wi-Fi Station
   WiFi.mode(WIFI_STA);
   Serial.print("Board ID :");
-  Serial.println(BOARD_ID);
+  Serial.println(SERVER_ID);
   Serial.print("Server ID :");
   Serial.println(SERVER_ID);
   Serial.print("Mac Address :");
