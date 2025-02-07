@@ -17,9 +17,7 @@
 #define THERMOSTAT 0
 #define THERMOMETER 1
 #define RELAY 2
-#define TH_ARRAY 3
-
-
+#define TH_ARRAY
 #define EEPROM_SIZE 1
 
 uint8_t simulateTemps[12] = {}; 

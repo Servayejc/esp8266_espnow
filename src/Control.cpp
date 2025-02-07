@@ -19,6 +19,8 @@ Control::setChannel(uint8_t channel, bool value)
 
 uint8_t CtoIO[11] = {16, 5, 4, 0, 2, 14, 12, 13, 15, 3, 1};
 
+//vvvv
+
 Control::Control() {
   Wire.begin(D1,D2); 
 }
