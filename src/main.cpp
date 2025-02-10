@@ -159,6 +159,7 @@ void getReadings(uint8_t Ndx)
     //temperature = 22.2;
   }
   myData.msgType = DATA;
+  myData. = 
   myData.deviceId = pairingData.deviceIds[Ndx];
   uint8_t deviceType = pairingData.deviceTypes[Ndx];
   myData.deviceType = deviceType;
@@ -198,15 +199,15 @@ void getReadings(uint8_t Ndx)
     myData.U2 = relaySetPoint;
     break;
 
-    case TH_ARRAY:
+   /* case TH_ARRAY:
     myData.F1 = temperature;
     myData.F2 = -1;
     myData.U1 = -1;
     myData.U2 = -1;
-    break;
+    break;*/
   }
   esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
-  //printData();
+  printData();
 }
 
 void on_esp_now_data_sent(uint8_t *mac_addr, uint8_t sendStatus)
