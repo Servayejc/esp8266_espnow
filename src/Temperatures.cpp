@@ -5,28 +5,25 @@
 #include "arduino.h"
 
 //#define DEBUG_CRC
-#define DEBUG_TEMPERATURES
+//#define DEBUG_TEMPERATURES
+//#define DEBUG_SCAN_1WIRE
 
 //OneWire* oneWireBus = new OneWire[4];
-
 //OneWire oneWireBus[] = {OneWire(D4), OneWire(D3)};  //ID 2
-
 
 OneWire oneWireBus[] = {OneWire(D4)}; // ID 2 - 4  
 
 NewSensorsList NewSensors;
 SensorsList Sensors;
 
-void StartConversion(uint8_t busNdx) {									// tested
-	Serial.print(" Start conversion, Bus Index : ");
-	Serial.println(busNdx);
-	
-	
+void StartConversion(uint8_t busNdx) {									
+	#ifdef DEBUG_TEMPERATURES
+		Serial.print(" Start conversion, Bus Index : ");
+		Serial.println(busNdx);
+	#endif
 	oneWireBus[busNdx].reset();
 	oneWireBus[busNdx].write(0xCC, 0);		 // SKIP ROM - Send command to all devices
 	oneWireBus[busNdx].write(0x44, 0);      // START CONVERSION
-	
-	//ds3.write(0xB4, 0);	 // Start voltage conversion	
 }
 
 
@@ -57,52 +54,50 @@ byte dsCRC8(const uint8_t *addr, uint8_t len)//begins from LS-bit of LS-byte (On
 
 float ReadTemp(byte Ndx) {
 	float celcius = -50;
-	Serial.print("NDX = ");
-	Serial.print(Ndx);
-	Serial.print(" Bus Index : ");
-	Serial.println(Sensors[Ndx].busNdx);
+	#ifdef DEBUG_TEMPERATURES
+		Serial.print("NDX = ");
+		Serial.print(Ndx);
+		Serial.print(" Bus Index : ");
+		Serial.println(Sensors[Ndx].busNdx);
+	#endif
 	
 	byte data[12] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 	oneWireBus[Sensors[Ndx].busNdx].reset();    //Returns 1 if a device asserted a presence pulse, 0 otherwise. 
 	oneWireBus[Sensors[Ndx].busNdx].select(Sensors[Ndx].Address);
 	oneWireBus[Sensors[Ndx].busNdx].write(0xBE);						// READ SCRATCHPAD
 		
-		for ( byte i = 0; i < 9; i++) {         // we need 9 bytes
-			data[i] = oneWireBus[Sensors[Ndx].busNdx].read();
-			#ifdef DEBUG_TEMPERATURES
-			//Serial.print(data[i],HEX);
-			//Serial.print(" ");
-			#endif	
-		}
-		
-		byte crc1 = dsCRC8(data, 8);  //calculate crc
-		#ifdef DEBUG_CRC
-			Serial.print(" = ");
-			Serial.print("Received CRC = ");
-			Serial.println(data[8], HEX);
-			Serial.print("Calculated CRC = ");
-			Serial.println(crc1, HEX);    
-		#endif
-  
-		if (crc1 == data[8]) {//compare : calculate with received
-			// convert the data to actual temperature
-			int16_t raw = (((int16_t) data[1]) << 11) | (((int16_t) data[0]) << 3);
-			celcius = float(raw) / 128;
-			//Serial.print("Temp = ");
-			//Serial.println(celcius);
-		} else {
-			celcius = -100;
-		}
-	
+	for ( byte i = 0; i < 9; i++) {         // we need 9 bytes
+		data[i] = oneWireBus[Sensors[Ndx].busNdx].read();
 		#ifdef DEBUG_TEMPERATURES
-			Serial.print("Temperature for ");
-			Serial.print(Ndx);
-			Serial.print(": ");
-			Serial.println(celcius);
+			Serial.print(data[i],HEX);
+			Serial.print(" ");
 		#endif	
-	//}
+	}
 	
-	//StartConversion(Sensors[Ndx].busNdx);   
+	byte crc1 = dsCRC8(data, 8);  //calculate crc
+	#ifdef DEBUG_CRC
+		Serial.print(" = ");
+		Serial.print("Received CRC = ");
+		Serial.println(data[8], HEX);
+		Serial.print("Calculated CRC = ");
+		Serial.println(crc1, HEX);    
+	#endif
+
+	if (crc1 == data[8]) {//compare : calculate with received
+		// convert the data to actual temperature
+		int16_t raw = (((int16_t) data[1]) << 11) | (((int16_t) data[0]) << 3);
+		celcius = float(raw) / 128;
+	} else {
+		celcius = -100;
+	}
+
+	#ifdef DEBUG_TEMPERATURES
+		Serial.print("Temperature for ");
+		Serial.print(Ndx);
+		Serial.print(": ");
+		Serial.println(celcius);
+	#endif	
+   
 	return celcius;	
 }
 
@@ -136,17 +131,18 @@ void ReadTemperatures() {
 String search(uint8_t oneWireNdx) {
   	
 	String data = "";
-	Serial.print("Searching 1-wire bus on net ");
-	Serial.println(oneWireNdx);
-  	uint8_t address[8]; 
+	#ifdef DEBUG_SCAN_1WIRE
+		Serial.print("Searching 1-wire bus on net ");
+		Serial.println(oneWireNdx);
+	#endif
+  	
+	uint8_t address[8]; 
 	
 
 	oneWireBus[oneWireNdx].reset();
 	oneWireBus[oneWireNdx].reset_search();
 
 	while (oneWireBus[oneWireNdx].search(address)) {
-		Serial.print("+");
-		// add to new list
 		Sensors.push_back(SensorEntry());
 		int Ndx = Sensors.size()-1;
 		Sensors[Ndx].Ndx = Ndx;
@@ -154,18 +150,21 @@ String search(uint8_t oneWireNdx) {
 		Sensors[Ndx].busNdx = oneWireNdx;
 		Sensors[Ndx].NT = 0;
 		
-		Serial.print(Ndx);
-		Serial.print(" Group ");
-		Serial.print(oneWireNdx);
-		Serial.print(" : ");
-		for(byte i = 0; i < 8; ++i) {
-			if (address[i] < 0x10) Serial.write('0');
-			Serial.print(address[i], HEX);
-			Serial.print(' ');
-			data += String(address[i], HEX);
-			data += " "; 
-		}
-		Serial.println();
+		#ifdef DEBUG_SCAN_1WIRE
+			Serial.print("+");
+			Serial.print(Ndx);
+			Serial.print(" Group ");
+			Serial.print(oneWireNdx);
+			Serial.print(" : ");
+			for(byte i = 0; i < 8; ++i) {
+				if (address[i] < 0x10) Serial.write('0');
+				Serial.print(address[i], HEX);
+				Serial.print(' ');
+				data += String(address[i], HEX);
+				data += " "; 
+			}
+			Serial.println();
+		#endif
 		Ndx ++;
 		
 		data += "\n";
@@ -173,8 +172,6 @@ String search(uint8_t oneWireNdx) {
     }
 	oneWireBus[oneWireNdx].reset_search();
 	oneWireBus[oneWireNdx].reset();
-	//delay(1000);
-	
 	return(data);
 }
 

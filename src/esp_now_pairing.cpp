@@ -158,14 +158,10 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
         printMAC(pairingData.macAddr);
       #endif
       
-      Serial.println("control");
+      
       for(int i = 0; i < 12; i++){
         RTCdata.control[i] = pairingData.controlNdx[i]; 
-        Serial.print("Ctrl Ndx : ");
-        Serial.println(RTCdata.control[i]);   
       }
-      //RTCdata.control[0] = 9;  // TODO check why this code*/
-      Serial.println();
 
       printPairingData();
    

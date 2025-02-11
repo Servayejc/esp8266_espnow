@@ -4,6 +4,8 @@
 #include <arduino.h>
 #include <vector>
 
+#define DEBUG_CONTROL
+
 #define BOARD_ID 3        // see Struct.json in server/data
 #define SERVER_TEST
   #ifdef SERVER_TEST
