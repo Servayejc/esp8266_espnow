@@ -3,9 +3,7 @@
 #include <Ticker.h>
 #include "Config.h"
 
-#define DEBUG_INCOMING_DATA
-#define DEBUG_PAIRING_DATA
-#define DEBUG_PAIRING
+
 
 // callback for receiving data type DATA
 void(*recv_cb)(uint8_t * mac, uint8_t *incomingData, uint8_t len) = NULL;
@@ -144,9 +142,11 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
     break;
   
   case PAIRING:
-    Serial.println("--- Pairing ---");
+    Serial.print("--- Pairing to ");
+    Serial.print(pairingData.id);
+    Serial.println(" ---"); 
     memcpy (&pairingData, incomingData, sizeof(pairingData));
-    Serial.println(pairingData.id);
+    
     if (pairingData.id == SERVER_ID) {                // the message comes from server
       #ifdef DEBUG_PAIRING
         Serial.print("Pairing done on channel ");

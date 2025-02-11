@@ -176,9 +176,11 @@ void getReadings(uint8_t Ndx)
        RTCdata.curState[Ndx] = OFF;
     }
  
-    Serial.print(RTCdata.control[Ndx]);
-    Serial.print("  :  ");
-    Serial.println(RTCdata.curState[Ndx]);  
+    #ifdef DEBUG_CONTROL
+      Serial.print(RTCdata.control[Ndx]);
+      Serial.print("  :  ");
+      Serial.println(RTCdata.curState[Ndx]); 
+    #endif 
     
     CTRL.setChannel(RTCdata.control[Ndx]-1, (bool)RTCdata.curState[Ndx]);
 

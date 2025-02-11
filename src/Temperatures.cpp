@@ -4,9 +4,7 @@
 #include "global.h"
 #include "arduino.h"
 
-//#define DEBUG_CRC
-//#define DEBUG_TEMPERATURES
-//#define DEBUG_SCAN_1WIRE
+
 
 //OneWire* oneWireBus = new OneWire[4];
 //OneWire oneWireBus[] = {OneWire(D4), OneWire(D3)};  //ID 2
