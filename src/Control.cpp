@@ -62,17 +62,8 @@ uint8_t Control::getStatus(){
 }
 
 void Control::setChannel(uint8_t channel, bool value){
-	//Serial.print(channel);
-	//Serial.print(" : ");
-	//Serial.println(value);
-
 	if (channel >= 100){
-	//	Serial.println("-------");
-		//digitalWrite(D5, value);
 		digitalWrite(CtoIO[channel-100], !value);
-	//	Serial.print(channel);
-	//	Serial.print(" > ");
-	//	Serial.println(CtoIO[channel-100]);
 	} else {
 	    if ((channel > -1) && (channel < 6)){
 		if (!value){

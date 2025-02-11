@@ -15,8 +15,6 @@ class Control  {
 	void reset();
 	uint8_t getStatus();
 	void setChannel(uint8_t channel, bool value);
-	//void setOn(uint8_t channel);
-	//void setOff(uint8_t channel);
 	void setAuto(bool state);
 	bool isAuto();
 };
