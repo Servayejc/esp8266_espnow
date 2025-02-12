@@ -6,10 +6,6 @@
 #include <espnow.h>
 #include <global.h>
 
-
-//#define BOARD_ID 2
-
-
 extern uint8_t serverAddress[6];
 
 void register_recv_cb(void(*Callback_ptr)(uint8_t * mac, uint8_t *incomingData, uint8_t len));

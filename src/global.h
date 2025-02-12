@@ -7,7 +7,7 @@
 //#define DEBUG_CONTROL
 //#define DEBUG_CRC
 //#define DEBUG_TEMPERATURES
-//#define DEBUG_SCAN_1WIRE
+#define DEBUG_SCAN_1WIRE
 //#define DEBUG_INCOMING_DATA
 //#define DEBUG_PAIRING_DATA
 //#define DEBUG_PAIRING
