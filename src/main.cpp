@@ -210,7 +210,7 @@ void getReadings(uint8_t Ndx)
     break;
   }
   esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
-  //printData();
+  printData();
 }
 
 void on_esp_now_data_sent(uint8_t *mac_addr, uint8_t sendStatus)

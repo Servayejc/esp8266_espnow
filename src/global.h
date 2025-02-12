@@ -6,15 +6,15 @@
 
 //#define DEBUG_CONTROL
 //#define DEBUG_CRC
-//#define DEBUG_TEMPERATURES
+#define DEBUG_TEMPERATURES
 #define DEBUG_SCAN_1WIRE
 //#define DEBUG_INCOMING_DATA
-//#define DEBUG_PAIRING_DATA
+#define DEBUG_PAIRING_DATA
 //#define DEBUG_PAIRING
 
-#define BOARD_ID 3        // see Struct.json in server/data
-#define SERVER_TEST
-  #ifdef SERVER_TEST
+#define BOARD_ID 4        // see Struct.json in server/data
+//#define SERVER_TEST
+#ifdef SERVER_TEST
     #define SERVER_ID 99  //test
   #else
     #define SERVER_ID 10  //production
@@ -25,19 +25,9 @@
 
 extern int chan;
 extern int pingTime;
-
 extern bool ledPair;
-
 extern uint8_t control[12]; 
 extern int curState[12];
-
-enum PairingStatus {PAIR_REQUEST, PAIR_REQUESTED, PAIR_PAIRED, PAIR_PAUSED};
-enum PeerType { THERMOSTAT, THERMOMETER, RELAY, };
-enum MessageType { PAIRING, DATA, SETPOINTS, PING, RESET, };
-
-
-extern PeerType peerType;
-extern MessageType messageType;
 
 
 
@@ -52,7 +42,6 @@ typedef struct struct_reset
   uint8_t msgType;
   uint8_t id;
 } struct_reset;
-
 
 typedef struct struct_SP
 {
@@ -141,6 +130,10 @@ struct SensorEntry {
 
 typedef std::vector<SensorEntry> SensorsList;
 extern SensorsList Sensors;
-
+enum PairingStatus {PAIR_REQUEST, PAIR_REQUESTED, PAIR_PAIRED, PAIR_PAUSED};
+enum PeerType { THERMOSTAT, THERMOMETER, RELAY, };
+enum MessageType { PAIRING, DATA, SETPOINTS, PING, RESET, };
+extern PeerType peerType;
+extern MessageType messageType;
 
 #endif
