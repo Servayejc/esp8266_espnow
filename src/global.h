@@ -6,14 +6,14 @@
 
 //#define DEBUG_CONTROL
 //#define DEBUG_CRC
-#define DEBUG_TEMPERATURES
-#define DEBUG_SCAN_1WIRE
+//#define DEBUG_TEMPERATURES
+//#define DEBUG_SCAN_1WIRE
 //#define DEBUG_INCOMING_DATA
-#define DEBUG_PAIRING_DATA
+//#define DEBUG_PAIRING_DATA
 //#define DEBUG_PAIRING
 
 #define BOARD_ID 4        // see Struct.json in server/data
-//#define SERVER_TEST
+#define SERVER_TEST
 #ifdef SERVER_TEST
     #define SERVER_ID 99  //test
   #else

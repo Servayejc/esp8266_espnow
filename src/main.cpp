@@ -262,8 +262,7 @@ void setup()
   
   pinMode(D8, OUTPUT);  
   digitalWrite(D8, 0);
-  pinMode(16, OUTPUT);
-  digitalWrite(16, 0);
+
  
   // register esp_now data_reed callback  
   init_esp_now(); 
@@ -291,7 +290,7 @@ void setup()
   
   //Deep sleep control
   pinMode(12, INPUT_PULLUP);
-  deepSleepMode = !digitalRead(12);
+  deepSleepMode = digitalRead(12);
   if (deepSleepMode)  { 
     timerSendDevice.start();
   } else {

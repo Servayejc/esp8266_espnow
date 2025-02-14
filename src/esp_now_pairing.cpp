@@ -277,7 +277,7 @@ void init_esp_now() {
   // Set device as a Wi-Fi Station
   WiFi.mode(WIFI_STA);
   Serial.print("Board ID :");
-  Serial.println(SERVER_ID);
+  Serial.println(BOARD_ID);
   Serial.print("Server ID :");
   Serial.println(SERVER_ID);
   Serial.print("Mac Address :");
