@@ -76,7 +76,6 @@ void Control::setChannel(uint8_t channel, bool value){
 		Wire.endTransmission();
 	  }
 	}
-
 }
 
 void Control::setAuto(bool state){
