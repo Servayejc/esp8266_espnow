@@ -9,10 +9,10 @@
 //#define DEBUG_TEMPERATURES
 //#define DEBUG_SCAN_1WIRE
 //#define DEBUG_INCOMING_DATA
-//#define DEBUG_PAIRING_DATA
-//#define DEBUG_PAIRING
+#define DEBUG_PAIRING_DATA
+#define DEBUG_PAIRING
 
-#define BOARD_ID 4        // see Struct.json in server/data
+#define BOARD_ID 3        // see Struct.json in server/data
 #define SERVER_TEST
 #ifdef SERVER_TEST
     #define SERVER_ID 99  //test
@@ -29,7 +29,7 @@ extern bool ledPair;
 extern uint8_t control[12]; 
 extern int curState[12];
 
-
+extern uint8_t simulateTemps[12];
 
 typedef struct struct_ping
 {
@@ -86,6 +86,7 @@ typedef struct struct_dataRTC {
   uint8_t temp_SP[12] = {}; 
   uint8_t curState[12] = {}; 
   uint8_t control[12] = {}; 
+  uint8_t WiFiChannel;
 } struct_dataRTC; 
 
 extern struct_dataRTC RTCdata;

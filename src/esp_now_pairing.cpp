@@ -2,8 +2,9 @@
 #include <global.h>
 #include <Ticker.h>
 #include "Config.h"
+#include "utils.h"
 
-
+struct_dataRTC RTCdata = {};
 
 // callback for receiving data type DATA
 void(*recv_cb)(uint8_t * mac, uint8_t *incomingData, uint8_t len) = NULL;
@@ -40,8 +41,10 @@ int getChannel()
 
 void setChannel(int value)
 {
-    uint32_t storeValue = value;
-    ESP.rtcUserMemoryWrite(0, &storeValue, 1);
+    RTCdata.WiFiChannel = value;
+    saveRTCdata(false);
+    //uint32_t storeValue = value;
+    //ESP.rtcUserMemoryWrite(0, &storeValue, 1);
 }
 
 void printMAC(const uint8_t * mac_addr){
@@ -273,8 +276,11 @@ void pairingPause(){
   }  
 }   
 
-void init_esp_now() {
+void init_esp_now(uint8_t WiFiChannel) {
   // Set device as a Wi-Fi Station
+  channel = WiFiChannel; 
+  Serial.print("channel :");
+  Serial.println(channel); 
   WiFi.mode(WIFI_STA);
   Serial.print("Board ID :");
   Serial.println(BOARD_ID);
@@ -293,7 +299,7 @@ void init_esp_now() {
   // Register for a callback function that will be called when data is received
   esp_now_register_recv_cb(OnDataRecv);
   esp_now_register_send_cb(OnDataSent);
-  channel = getChannel();
+  channel = RTCdata.WiFiChannel; //getChannel();
 }
 
 uint8_t getDevicesCount(){

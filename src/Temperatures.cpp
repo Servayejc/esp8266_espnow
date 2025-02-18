@@ -3,8 +3,14 @@
 #include <OneWire.h>
 #include "global.h"
 #include "arduino.h"
+#include "control.h"
+#include "utils.h"
 
+Control CTRL;
 
+#define ON 0
+#define OFF 1
+#define TH_ARRAY 3
 
 //OneWire* oneWireBus = new OneWire[4];
 //OneWire oneWireBus[] = {OneWire(D4), OneWire(D3)};  //ID 2
@@ -13,6 +19,11 @@ OneWire oneWireBus[] = {OneWire(4)}; // ID 2 - 4
 
 NewSensorsList NewSensors;
 SensorsList Sensors;
+
+float temperature;
+//struct_message myData;
+uint8_t relayStatus;
+uint8_t relaySetPoint;
 
 void StartConversion(uint8_t busNdx) {									
 	#ifdef DEBUG_TEMPERATURES
@@ -187,3 +198,68 @@ void searchAll(){
 	}
 
 }
+
+void getReadings(uint8_t Ndx , struct_message *myData)
+{
+  if (Sensors.size() > Ndx) {
+    temperature = ReadTemp(Ndx);
+    memcpy(myData->deviceAddress, Sensors[Ndx].Address,8);
+  } else {
+    // simulation
+    temperature = simulateTemps[Ndx];
+    //temperature = 22.2;
+  }
+  myData->msgType = DATA;
+  myData->deviceId = pairingData.deviceIds[Ndx];
+  uint8_t deviceType = pairingData.deviceTypes[Ndx];
+  myData->deviceType = deviceType;
+  switch (deviceType)
+  {
+  case THERMOSTAT:
+    if (temperature < RTCdata.temp_SP[Ndx] - 0.5)
+    {
+       RTCdata.curState[Ndx] = ON;
+    }
+    if (temperature > RTCdata.temp_SP[Ndx] + 0.5)
+    {
+       RTCdata.curState[Ndx] = OFF;
+    }
+ 
+    #ifdef DEBUG_CONTROL
+      Serial.print(RTCdata.control[Ndx]);
+      Serial.print("  :  ");
+      Serial.println(RTCdata.curState[Ndx]); 
+    #endif 
+    
+    CTRL.setChannel(RTCdata.control[Ndx]-1, (bool)RTCdata.curState[Ndx]);
+
+    //CTRL.setAuto(true);
+    myData->F1 = temperature;
+    myData->U1 = (uint8_t)RTCdata.curState[Ndx];
+    myData->F2 = RTCdata.temp_SP[Ndx];
+    break;
+
+  case THERMOMETER:
+    myData->F1 = temperature;
+    myData->U1 = (uint8_t)RTCdata.curState[Ndx];
+    break;
+
+  case RELAY:
+    myData->F1 = -1;
+    myData->F2 = -1;
+
+    myData->U1 = relayStatus;
+    myData->U2 = relaySetPoint;
+    break;
+
+    case TH_ARRAY:
+    myData->F1 = temperature;
+    myData->F2 = -1;
+    myData->U1 = -1;
+    myData->U2 = -1;
+    break;
+  }
+  //esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
+  printData(*myData);
+}
+
