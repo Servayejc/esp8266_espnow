@@ -16,28 +16,5 @@ PairingStatus autoPairing();
 void resetPairing();
 
 
-class Pairing  {      
-  private:
-    uint8_t serverAddress[6];
-    uint8_t channel = 1;
-   // status pairingStatus = PAIR_REQUEST; 
-  public: 
-    Pairing();            
-    void init_esp_now(uint8_t WiFiChannel);
-    void resetPairing();
-    PairingStatus autoPairing();
-	/*bool present();
-	
-	uint8_t getStatus();
-	void setChannel(uint8_t channel, bool value);
-	//void setOn(uint8_t channel);
-	//void setOff(uint8_t channel);
-	void setAuto(bool state);
-	bool isAuto();*/
-};
-
-//extern Control CTRL;
-
-
 
 #endif
