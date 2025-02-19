@@ -19,32 +19,18 @@
 #define THERMOMETER 1
 #define RELAY 2
 #define TH_ARRAY 3
-
-
 #define EEPROM_SIZE 1
-
-
 
 ADC_MODE(ADC_VCC);
 
-// Control CTRL;
-
-//uint8_t relaySetPoint;
-//uint8_t relayStatus;
-
+Control CTRL;
+Temps TEMPS;
 
 bool ledPair = false;
-uint8_t simulateTemps[12] = {};
-
-
-
-unsigned long button_time = 0;  
-unsigned long last_button_time = 0; 
 
 unsigned long starting = millis();
 
 bool deepSleepMode = false;
-
 int sendInterval = 10;   // in seconds
 
 uint8_t deviceTypes[3] = {THERMOSTAT, THERMOMETER, RELAY};
@@ -54,10 +40,6 @@ uint8_t modeTypes[2] = {DEEP_SLEAP_OFF, DEEP_SLEAP_ON};
 struct_message myData;
 struct_message setpoints;
 
-int readingId = 0;
-//float temperature;
-//float Hysteresis = 0.5;
-int count = 0;
 bool ledState;
 
 void sendDevice();
@@ -102,7 +84,7 @@ void on_esp_now_data_recv(uint8_t *mac, uint8_t *incomingData, uint8_t len )
      // myData.U1 = relayStatus;
       break;
     }
-    getReadings(setpoints.deviceId-1, &myData);
+    TEMPS.getReadings(setpoints.deviceId-1, &myData);
     esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
     break;
   }
@@ -114,8 +96,6 @@ void setup()
   
   pinMode(D8, OUTPUT);  
   digitalWrite(D8, 0);
-
-  pinMode(D8, OUTPUT); 
 
  // retrieve important data after power failure
   readRTCdata();
@@ -130,13 +110,13 @@ void setup()
   CTRL.test();
 
   //search connected 1-wire devices  
-  searchAll();
+  TEMPS.searchAll();
   Serial.print("En of search : ");
   Serial.print(millis() - starting);
   Serial.println("ms");
   
   // read all 1-wire data
-  StartAllConversion();
+  TEMPS.StartAllConversion();
   
   //Deep sleep control
   pinMode(12, INPUT_PULLUP);
@@ -147,9 +127,9 @@ void setup()
   } else {
     timerSendAllDevices.start();
   }
-  for (byte i = 0; i < 12; i++){
-    simulateTemps[i] = 15+i; 
-  }  
+  
+  
+
   Serial.println("Setup done");
 }
 
@@ -157,7 +137,7 @@ void sendDevice()       //100 ms
 { 
   if (pairingData.deviceTypes[timerSendDevice.counter()-1] == 255){
     timerSendDevice.stop();
-    StartAllConversion();
+    TEMPS.StartAllConversion();
     if (deepSleepMode){ 
       timerSendDevice.stop();
       Serial.print("I'm awake from ");
@@ -169,7 +149,7 @@ void sendDevice()       //100 ms
     }
   } else {
     updateSimulation();
-    getReadings(timerSendDevice.counter()-1, &myData);
+    TEMPS.getReadings(timerSendDevice.counter()-1, &myData);
     esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
   }
 }

@@ -1,12 +1,12 @@
 //2020-01-12//
 #include "Temperatures.h"
 #include <OneWire.h>
-#include "global.h"
+//#include "global.h"  ok
 #include "arduino.h"
 #include "control.h"
 #include "utils.h"
 
-Control CTRL;
+
 
 #define ON 0
 #define OFF 1
@@ -21,11 +21,14 @@ NewSensorsList NewSensors;
 SensorsList Sensors;
 
 float temperature;
-//struct_message myData;
+
 uint8_t relayStatus;
 uint8_t relaySetPoint;
 
-void StartConversion(uint8_t busNdx) {									
+Temps::Temps(){};
+uint8_t simulateTemps[12] = {};
+
+void Temps::StartConversion(uint8_t busNdx) {									
 	#ifdef DEBUG_TEMPERATURES
 		Serial.print(" Start conversion, Bus Index : ");
 		Serial.println(busNdx);
@@ -35,16 +38,14 @@ void StartConversion(uint8_t busNdx) {
 	oneWireBus[busNdx].write(0x44, 0);      // START CONVERSION
 }
 
-
-void StartAllConversion() {
+void Temps::StartAllConversion() {
 	uint8_t busCount = sizeof(oneWireBus)/sizeof(OneWire);
-	
 	for(uint8_t i = 0; i < busCount; ++i) {
 		StartConversion(i);
 	}
 }	
 
-byte dsCRC8(const uint8_t *addr, uint8_t len)//begins from LS-bit of LS-byte (OneWire.h)
+byte Temps::dsCRC8(const uint8_t *addr, uint8_t len)//begins from LS-bit of LS-byte (OneWire.h)
 {
   uint8_t crc = 0;
   while (len--)
@@ -61,7 +62,7 @@ byte dsCRC8(const uint8_t *addr, uint8_t len)//begins from LS-bit of LS-byte (On
   return crc;
 }
 
-float ReadTemp(byte Ndx) {
+float Temps::ReadTemp(byte Ndx) {
 	float celcius = -50;
 	#ifdef DEBUG_TEMPERATURES
 		Serial.print("NDX = ");
@@ -110,34 +111,18 @@ float ReadTemp(byte Ndx) {
 	return celcius;	
 }
 
-void ReadTemperatures() {
+void Temps::ReadTemperatures() {
 	for ( byte i = 0; i < Sensors.size(); i++) {
-		#ifdef DEBUG_TEST_CONTROL
-			// simulate temperatures for regulation tests
-			int channel = Sensors[i].Channel -1 ;
-			if (channel > -1 ){
-				bool isBitSet = Output & (1 << channel);
-				if (isBitSet) {
-					Sensors[i].TT = (Sensors[i].TT + 0.1);  
-				}
-				else
-				{ 
-					Sensors[i].TT = (Sensors[i].TT - 0.1); 
-				}
-				Sensors[i].NT = 1;
-			}
-		#else
-			float T = ReadTemp(i);
-			if (T > -100) { // ignore invalid readings
-				Sensors[i].TT = Sensors[i].TT + T;
-				Sensors[i].NT ++;
-			}
-		#endif		
+		float T = ReadTemp(i);
+		if (T > -100) { // ignore invalid readings
+			Sensors[i].TT = Sensors[i].TT + T;
+			Sensors[i].NT ++;
+		}
 	}
 	StartAllConversion();
 }
 
-String search(uint8_t oneWireNdx) {
+void Temps::search(uint8_t oneWireNdx) {
   	
 	String data = "";
 	#ifdef DEBUG_SCAN_1WIRE
@@ -146,7 +131,6 @@ String search(uint8_t oneWireNdx) {
 	#endif
   	
 	uint8_t address[8]; 
-	
 
 	oneWireBus[oneWireNdx].reset();
 	oneWireBus[oneWireNdx].reset_search();
@@ -175,16 +159,16 @@ String search(uint8_t oneWireNdx) {
 			Serial.println();
 		#endif
 		Ndx ++;
-		
-		data += "\n";
-		 
+	    data += "\n";
     }
 	oneWireBus[oneWireNdx].reset_search();
 	oneWireBus[oneWireNdx].reset();
-	return(data);
+	#ifdef DEBUG_SCAN_1WIRE
+	   serial.println(data);
+	#endif   
 }
 
-void searchAll(){
+void Temps::searchAll(){
 	Sensors = {};
 	search(0);
 	// there is a bug in search procedure
@@ -199,15 +183,15 @@ void searchAll(){
 
 }
 
-void getReadings(uint8_t Ndx , struct_message *myData)
+void Temps::getReadings(uint8_t Ndx , struct_message *myData)
 {
   if (Sensors.size() > Ndx) {
     temperature = ReadTemp(Ndx);
     memcpy(myData->deviceAddress, Sensors[Ndx].Address,8);
   } else {
-    // simulation
-    temperature = simulateTemps[Ndx];
-    //temperature = 22.2;
+    #ifdef DEBUG_SIMULATE_TEMP
+    	temperature = simulateTemps[Ndx];
+	#endif
   }
   myData->msgType = DATA;
   myData->deviceId = pairingData.deviceIds[Ndx];

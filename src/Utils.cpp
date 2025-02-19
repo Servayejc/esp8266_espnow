@@ -86,6 +86,12 @@ void printData(struct_message myData)
   Serial.println("-------------------");
 }
 
+void initSimulation(){
+  for (byte i = 0; i < 12; i++){
+    simulateTemps[i] = 15+i; 
+  } 
+}
+
 void updateSimulation(){
   for (byte i = 0; i < 12; i++){
     simulateTemps[i] += 1;

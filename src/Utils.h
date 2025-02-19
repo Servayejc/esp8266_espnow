@@ -12,6 +12,8 @@ void readRTCdata();
 void printSetpoint();
 void printData(struct_message myData);
 
+void initSimulation();
 void updateSimulation();
+
 
 #endif

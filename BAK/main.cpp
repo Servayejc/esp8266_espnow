@@ -214,13 +214,14 @@ void setup()
   init_esp_now();
   register_recv_cb(&on_esp_now_data_recv);
   Control CTRL; 
+  TempsClass TEMPS;
   CTRL.test();
 
-  searchAll();
+  TEMPS.searchAll();
   Serial.print("En of search : ");
   Serial.print(millis() - starting);
   Serial.println("ms");
-  StartAllConversion();
+  TEMPS.StartAllConversion();
 
   setpoints.F1 = defaultSP;
   setpoints.U1 = 0;
