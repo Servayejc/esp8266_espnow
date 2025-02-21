@@ -102,9 +102,10 @@ void setup()
   RTCdata.validity = RTCdata.validity + 1;
   saveRTCdata(false);
  
+   
   // register esp_now data_reed callback  
-  init_esp_now(RTCdata.WiFiChannel); 
-  register_recv_cb(&on_esp_now_data_recv);
+  init_esp_now(RTCdata.WiFiChannel);   
+ 
 
   // test control board
   CTRL.test();
@@ -164,6 +165,7 @@ void sendAllDevices()     // 500 ms
 
 void loop()
 {   
+  register_recv_cb(&on_esp_now_data_recv);
   if (autoPairing() == PAIR_PAIRED)
   {
     if (!deepSleepMode){ 

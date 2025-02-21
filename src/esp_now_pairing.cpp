@@ -29,17 +29,15 @@ unsigned long start;
 uint8_t channel = 1;
 
 
-
-int getChannel()
+void setChannel()
 {
-    uint32_t result;
-    ESP.rtcUserMemoryRead(0, &result, 1);
-    if (result < 1) result = 1;
-    if (result > 11) result = 1;
-    return (int)result;
+    
+    channel = RTCdata.WiFiChannel;
+    Serial.print("Channel from RTC :");
+    Serial.println(channel);
 }
 
-void setChannel(int value)
+void saveChannel(int value)
 {
     RTCdata.WiFiChannel = value;
     saveRTCdata(false);
@@ -84,8 +82,10 @@ void printPairingData(){
     Serial.println(pairingData.network);
     Serial.print("macAddr : "); 
     for(int i = 0; i < 6; i++){
-        Serial.print(pairingData.macAddr[i]);
-        Serial.print(", ");
+        Serial.print(pairingData.macAddr[i],HEX);
+        if (i<5){
+          Serial.print(":");
+        }
     } 
     Serial.println();
     Serial.print("Channel : ");
@@ -161,7 +161,6 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
         printMAC(pairingData.macAddr);
       #endif
       
-      
       for(int i = 0; i < 12; i++){
         RTCdata.control[i] = pairingData.controlNdx[i]; 
       }
@@ -170,7 +169,7 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
    
       memcpy(serverAddress, pairingData.macAddr, 6);
       esp_now_add_peer(pairingData.macAddr, ESP_NOW_ROLE_COMBO, pairingData.channel, NULL, 0); // add the server to the peer list 
-      setChannel(channel);
+      saveChannel(channel);
       pairingStatus = PAIR_PAIRED ;
                   // set the pairing status
     }
@@ -299,10 +298,10 @@ void init_esp_now(uint8_t WiFiChannel) {
   // Register for a callback function that will be called when data is received
   esp_now_register_recv_cb(OnDataRecv);
   esp_now_register_send_cb(OnDataSent);
-  channel = RTCdata.WiFiChannel; //getChannel();
+  setChannel(); 
 }
 
-uint8_t getDevicesCount(){
+/*uint8_t getDevicesCount(){
    uint8_t count = 0;
    for(int i = 0; i < 12; i++){
         if (pairingData.deviceTypes[i] < 255){
@@ -310,7 +309,7 @@ uint8_t getDevicesCount(){
         }
    }
    return count;     
-}
+}*/
 
 void register_recv_cb(void(*Callback_ptr)(uint8_t * mac, uint8_t *incomingData, uint8_t len)) {
   recv_cb = Callback_ptr;
