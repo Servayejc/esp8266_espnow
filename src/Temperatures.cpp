@@ -164,7 +164,7 @@ void Temps::search(uint8_t oneWireNdx) {
 	oneWireBus[oneWireNdx].reset_search();
 	oneWireBus[oneWireNdx].reset();
 	#ifdef DEBUG_SCAN_1WIRE
-	   serial.println(data);
+	   Serial.println(data);
 	#endif   
 }
 
@@ -243,7 +243,9 @@ void Temps::getReadings(uint8_t Ndx , struct_message *myData)
     myData->U2 = -1;
     break;
   }
-  //esp_now_send(serverAddress, (uint8_t *)&myData, sizeof(myData));
-  printData(*myData);
+
+  #ifdef DEBUG_TEMPERATURES
+  	printData(*myData);
+  #endif	
 }
 
