@@ -7,7 +7,7 @@
 class Temps   {      
   private:
     bool isPresent; 
-	uint8_t output; 
+	  uint8_t output; 
     void search(uint8_t oneWireNdx);
     byte dsCRC8(const uint8_t *addr, uint8_t len);
     float ReadTemp(byte Ndx);
