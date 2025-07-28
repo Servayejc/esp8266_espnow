@@ -22,6 +22,4 @@ class Temps   {
 
 extern Temps TEMPS;
 
-
-
 #endif

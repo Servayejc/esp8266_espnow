@@ -1,7 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <espnow.h>
-#include <Temperatures.h>
+
 #include <esp_now_pairing.h>
+#include <Temperatures.h>
+
 #include <global.h>
 #include <Ticker.h>
 #include <map>
@@ -20,17 +22,20 @@
 #define RELAY 2
 #define TH_ARRAY 3
 #define EEPROM_SIZE 1
+#define uS_TO_S_FACTOR 1000000
 
 ADC_MODE(ADC_VCC);
 
 Control CTRL;
 Temps TEMPS;
 
+
 bool ledPair = false;
 
 unsigned long starting = millis();
 
 bool deepSleepMode = false;
+
 int sendInterval = 10;   // in seconds
 
 uint8_t deviceTypes[3] = {THERMOSTAT, THERMOMETER, RELAY};
@@ -46,8 +51,9 @@ void sendDevice();
 void sendAllDevices();
 
 
-Ticker timerSendAllDevices(sendAllDevices, sendInterval * 1000);   
-Ticker timerSendDevice(sendDevice, 100);
+Ticker timerSendAllDevices(sendAllDevices, sendInterval * 1000);   // timerLong 10 sec between sending
+Ticker timerSendDevice(sendDevice, 100);                           // timerShort 100ms between 2 devices
+
 
 void on_esp_now_data_sent(uint8_t *mac_addr, uint8_t sendStatus)
 {
@@ -97,18 +103,22 @@ void setup()
   pinMode(D8, OUTPUT);  
   digitalWrite(D8, 0);
 
+  pinMode(D5, INPUT_PULLUP);
+
  // retrieve important data after power failure
   readRTCdata();
   RTCdata.validity = RTCdata.validity + 1;
-  saveRTCdata(false);
+  //saveRTCdata(false);
  
    
   // register esp_now data_reed callback  
   init_esp_now(RTCdata.WiFiChannel);   
  
-
+  //CTRL.init();
   // test control board
-  CTRL.test();
+  //CTRL.test();
+
+  // CTRL.scanI2C();
 
   //search connected 1-wire devices  
   TEMPS.searchAll();
@@ -118,6 +128,9 @@ void setup()
   
   // read all 1-wire data
   TEMPS.StartAllConversion();
+
+  TEMPS.getReadings(setpoints.deviceId-1, &myData);
+  TEMPS.StartAllConversion();
   
   //Deep sleep control
   pinMode(12, INPUT_PULLUP);
@@ -126,11 +139,10 @@ void setup()
   if (deepSleepMode)  { 
     timerSendDevice.start();
   } else {
+    //timerSendAllDevices.interval(30000); 
     timerSendAllDevices.start();
   }
   
-  
-
   Serial.println("Setup done");
 }
 
@@ -144,9 +156,9 @@ void sendDevice()       //100 ms
       Serial.print("I'm awake from ");
       Serial.print(millis()- starting);
       Serial.print("ms , but I'm going into deep sleep mode for ");
-      Serial.print(sendInterval);
+      Serial.print(30);
       Serial.println(" seconds");
-      ESP.deepSleep(sendInterval * 1000000);
+      ESP.deepSleep(30 * uS_TO_S_FACTOR);
     }
   } else {
     updateSimulation();
@@ -166,6 +178,8 @@ void sendAllDevices()     // 500 ms
 void loop()
 {   
   register_recv_cb(&on_esp_now_data_recv);
+  
+
   if (autoPairing() == PAIR_PAIRED)
   {
     if (!deepSleepMode){ 
@@ -173,5 +187,4 @@ void loop()
     }  
     timerSendDevice.update();
   }
-  
 }

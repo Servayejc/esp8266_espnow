@@ -15,7 +15,7 @@
 //OneWire* oneWireBus = new OneWire[4];
 //OneWire oneWireBus[] = {OneWire(D4), OneWire(D3)};  //ID 2
 
-OneWire oneWireBus[] = {OneWire(D4),OneWire(D3)}; // ID 2 - 4  
+OneWire oneWireBus[] = {OneWire(4)}; // ID 2 - 4  
 
 NewSensorsList NewSensors;
 SensorsList Sensors;
@@ -209,11 +209,7 @@ void Temps::getReadings(uint8_t Ndx , struct_message *myData)
        RTCdata.curState[Ndx] = OFF;
     }
  
-    #ifdef DEBUG_CONTROL
-      Serial.print(RTCdata.control[Ndx]);
-      Serial.print("  :  ");
-      Serial.println(RTCdata.curState[Ndx]); 
-    #endif 
+    
     
     CTRL.setChannel(RTCdata.control[Ndx]-1, (bool)RTCdata.curState[Ndx]);
 
@@ -226,6 +222,9 @@ void Temps::getReadings(uint8_t Ndx , struct_message *myData)
   case THERMOMETER:
     myData->F1 = temperature;
     myData->U1 = (uint8_t)RTCdata.curState[Ndx];
+
+	//Serial.print("---LEVEL = ");
+	//Serial.println(CTRL.getLevel());
     break;
 
   case RELAY:
@@ -248,4 +247,3 @@ void Temps::getReadings(uint8_t Ndx , struct_message *myData)
   	printData(*myData);
   #endif	
 }
-

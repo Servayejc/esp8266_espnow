@@ -243,6 +243,7 @@ PairingStatus autoPairing(){
       if (channel > 11) {
         channel = 1;
       }
+      // try each channel maximun 2 times 
       channelCount ++;
       if (channelCount > 11*2){
         timerPairingPause.start();
@@ -255,7 +256,11 @@ PairingStatus autoPairing(){
     break;
 
   case PAIR_PAUSED:
-    timerPairingPause.update();
+    // in deepSleepMode, the module is battery powered
+    // stay in PAIR_POSED until next reboot after WakeUp 
+    if (deepSleepMode){
+      timerPairingPause.update();
+    }
     break;  
 
   case PAIR_PAIRED:
