@@ -1,11 +1,10 @@
 #include <Wire.h>
-#include <Adafruit_MCP23X17.h>
 #include "Arduino.h"
 #include "Control.h"
+#include "PCF8574.h"
 #include "global.h"
 
-#define CONTROL  0x38
-#define MCP  0x20
+
 
 /*
 Control::setChannel(uint8_t channel, bool value)
@@ -16,121 +15,139 @@ Control::setChannel(uint8_t channel, bool value)
 		100 > D0 .. 110 > D10
 
 	Caution:
-	- D3 and D4 are used to connect 1-wire thermometers.
-	- D0 are used to wakeup from deep sleep.	
+	- D0 are used to wakeup from deep sleep.
+	- D1 and D2 are used for I2C communication with the control board.
+	- D3 and D4 are used to connect 1-wire buses.
+	- D5 is used to reset the control board.
+	- D6 is used to set deep sleep mode.
+	
 */
-Adafruit_MCP23X17 mcp;
-uint8_t level = 0;
 
-void ICACHE_RAM_ATTR ISR(){
-	level =  mcp.getLastInterruptPin();
-	mcp.clearInterrupts();
+//#define DEBUG_CONTROL
+
+bool keyPressed = false;
+
+
+
+
+//MCP23017 register addresses
+#define IODIR_A		0x00
+#define IPOL_A		0x02
+#define IOCON		0x0A
+#define GPPU_A		0x0C
+#define GPIO_A		0x12
+
+Control::Control() {
+  
 }
 
-uint8_t CtoIO[11] = {16, 5, 4, 0, 2, 14, 12, 13, 15, 3, 1};
+//------ MCP23017 code ---------
+void Control::resetMCP017(){
+	pinMode(MCP23017_RST,OUTPUT);
+	digitalWrite(MCP23017_RST, LOW);
+	delay(100);
+	digitalWrite(MCP23017_RST, HIGH);	
+  	delay(100);
+}
 
-Control::Control() {}
+void Control::writeRegister(uint8_t reg, uint8_t value){
+  	Wire.beginTransmission(MCP23017_ADDR);
+	Wire.write(static_cast<uint8_t>(reg));
+	Wire.write(value);
+	Wire.endTransmission();
+}
 
-void Control::init(){
-	Wire.begin(D1,D2);	
-	if (!mcp.begin_I2C()) {
-		Serial.println("Error.");
-	  	while (1);
-	}
-	//Pins 0-8 are in input_pullup mode for water detection
-	mcp.setupInterrupts(true, false, LOW);
-	for ( byte i = 0; i < 9; i++) {
-		mcp.pinMode(i, INPUT_PULLUP);
-		mcp.setupInterruptPin(i, LOW);
-    }
-	//Pins 9 to 15 in output mode for Heater control
-	for ( byte i = 9; i < 16; i++) {
-		mcp.pinMode(i, OUTPUT);
-    }
-	mcp.setupInterrupts(true, false, LOW);
-	mcp.clearInterrupts();
+uint8_t Control::readRegister(uint8_t reg)
+{
+	Wire.beginTransmission(MCP23017_ADDR);
+	Wire.write(static_cast<uint8_t>(reg));
+	Wire.endTransmission();
+	Wire.requestFrom(MCP23017_ADDR, 1); // read 1 byte
+    return Wire.read();
+}
+
+void Control::initLevel(){
+	writeRegister(IOCON, 0b00100000);  // bit 5 = 1-Sequential operation disabled, address pointer does not increment.
+    //port mode
+    writeRegister(IODIR_A, 0xFF); // direction 1-input 0-output
+	writeRegister(GPPU_A, 0xFF);  // pullups 1-enabled 0-disabled;;
+	writeRegister(IPOL_A, 0xFF);  // inverted 1-inverted 0-normal;
 }
 
 uint8_t Control::getLevel(){
-	return level;
+    //return readRegister(GPIO_A);
+	uint8_t value = readRegister(GPIO_A);
+	//Serial.println(value, BIN);
+	if (value == 0) return 0;
+    uint8_t position = 32 - __builtin_clz(value); // Position of MSB
+	//Serial.println(position);
+	return position;
 }
 
+//------ end of MCP23017 code ---------
 
-bool Control::present(uint8_t address){
-	uint8_t error = false;
-	//Wire.available();
-	
-	Wire.beginTransmission(address);
-    error = Wire.endTransmission();
-	if (error == 0){
-		Serial.print("I2C found ");
-		Serial.println(address);
+bool Control::present(){
+	isPresent = false;
+	Wire.available();
+    Wire.beginTransmission(CONTROL_ADDR);
+	if (Wire.endTransmission() == 0){
+		Serial.println("Control found");
+		isPresent = true;
 	} 
-	return !error;
+	return isPresent;
 }
 
 void Control::test() {
 	output = 0;
-	for ( byte i = 0; i < 4; i++) {
+	for ( byte i = 0; i < 6; i++) {
 		bitSet(output, i);
-		mcp.writeGPIOB(output<<1);
-	//	Serial.println(output<<1);
+		Wire.beginTransmission(CONTROL_ADDR);
+		Wire.write(output);
+		Wire.endTransmission();
 		delay(200);
 		bitClear(output, i);
-		mcp.writeGPIOB(output<<1);
-    //	Serial.println(output<<1);
 		delay(200);
+		Wire.beginTransmission(CONTROL_ADDR);
+		Wire.write(output);
+		Wire.endTransmission();
 	}
-}
-
-void Control::reset() {
-	output = 0;
-	Wire.beginTransmission(CONTROL);
-	Wire.write(output);
-	Wire.endTransmission();
 }
 
 uint8_t Control::getStatus(){
 	return output;
 }
 
-void Control::setChannel(uint8_t channel, bool value){
-	#ifdef DEBUG_CONTROL
-	//  Serial.println("SET CHANNEL");
-    //  Serial.print(channel);
-    //  Serial.print("  :  ");
-    //  Serial.println(value); 
-    #endif 
 
-	
+// mapping of control channel number to esp8266 IO port number
+//                   D0, D1, D2, D3, D4, D5, D6, D7, D8, D9, D10
+uint8_t CtoIO[11] = {16, 5,  4,  0,  2,  14, 12, 13, 15, 3,  1}; 
+
+void Control::setCtrlChannel(uint8_t channel, bool value){
+	//	#ifdef DEBUG_CONTROL
+	Serial.println("Control channel : " + String(channel) + " value : " + String(value));		
+	//	#endif
 	if (channel >= 100){
-		digitalWrite(CtoIO[channel-100], !value);
-		#ifdef DEBUG_CONTROL
-		//	Serial.print("D = ");
-		//	Serial.print(CtoIO[channel-100]);
-		//	Serial.println(value,BIN);
-		#endif
-	} else {
-	    if ((channel > -1) && (channel < 6)){
-			if (!value){
-				bitSet(output,channel);
-			} else {
-				bitClear(output,channel);
-			}
-		//	Serial.print("output : ");
-		//
-			//Wire.beginTransmission(CONTROL);
-			//Wire.write(output);
-			//Wire.endTransmission();
-			mcp.writeGPIOB(output);
+		Serial.print("Control Channel: IO");
+		Serial.println(channel-100);	 
+		pinMode(channel-100, OUTPUT); 
+		digitalWrite(channel-100, !value);
 
-			#ifdef DEBUG_CONTROL
-		//	  Serial.print("Output = ");
-		//	  Serial.println(output,BIN);
-			#endif
-		}	
+		Serial.println(value);
+	} else {
+	    Serial.print("Control Channel: ");
+		Serial.println(channel);
+		// control of home made thermostat control board
+		if ((channel >= 0) && (channel < 6)){
+		if (!value){
+			bitSet(output,channel);
+		} else {
+			bitClear(output,channel);
+		}
+		Wire.beginTransmission(CONTROL_ADDR);
+		Wire.write(output);
+		Wire.endTransmission();
+	  }
 	}
-	//Serial.println("--- END SET Channel");
 }
 
 void Control::setAuto(bool state){
@@ -142,53 +159,6 @@ void Control::setAuto(bool state){
 }
 
 bool Control::isAuto(){
-	return (output >= 127);
-}
-
-void Control::scanI2C(){
-	byte error, address;
-	int nDevices;
-	
-	Serial.println("Scanning...");	
-	nDevices = 0;
-  for(address = 1; address < 127; address++ )
-  {
-    // The i2c_scanner uses the return value of
-    // the Write.endTransmisstion to see if
-    // a device did acknowledge to the address.
-	Wire.beginTransmission(address);
-    error = Wire.endTransmission();
-	Serial.println(address);
-    if (error == 0)
-    {
-      Serial.print("I2C device found at address 0x");
-	  switch (address)
-	  {
-	  case CONTROL:
-	    Serial.print("CONTROL = ");
-		break;  
-	  case MCP:
-	    Serial.print("MCP = ");
-		break;
-	  }
-      if (address<16)
-        Serial.print("0");
-	  Serial.print(address,HEX);
-      Serial.println("  !");
-
-      nDevices++;
-    }
-    else if (error==4)
-    {
-      Serial.print("Unknown error at address 0x");
-      if (address<16)
-        Serial.print("0");
-      Serial.println(address,HEX);
-    }
-  }
-  if (nDevices == 0)
-    Serial.println("No I2C devices found\n");
-  else
-    Serial.println("done\n");
+	return bitRead(output, 7);
 }
 

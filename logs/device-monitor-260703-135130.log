@@ -1,0 +1,236 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046af0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+Searching 1-wire bus on net 0
+En of search : 314ms
+Setup done
+Pairing request on channel 1
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 1
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 2
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 2
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 3
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 3
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 4
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 4
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 5
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 5
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 6
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 6
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 7
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 7
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 8
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 8
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 9
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 9
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 10
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 10
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 1
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 1
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 2
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 2
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 3
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 3
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 4
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 4
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 5
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 5
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 6
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 6
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 7
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 7
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 8
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 8
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 9
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 9
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 10
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 10
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 1
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 1
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing paused

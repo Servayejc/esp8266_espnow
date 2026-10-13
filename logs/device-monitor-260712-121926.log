@@ -1,0 +1,289 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046b80
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Exception (28):
+epc1=0x40202a53 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffd0 offset: 0150
+3ffffef0:  00000000 00000001 3ffeeb6c 40203d42  
+3fffff00:  00000000 3ffee9d4 3ffeeb6c 40201444  
+3fffff10:  00000009 400042db 00000000 33383534  
+3fffff20:  40004b00 3ffefadc 00000000 40205df4  
+3fffff30:  00000000 fffffffc 000011e7 40205df4  
+3fffff40:  3ffe89e5 00000000 00000000 3fffff70  
+3fffff50:  3ffe8b27 fffffffc 000011e7 3ffeece0  
+3fffff60:  00000000 3ffee9d4 3ffee878 402016ff  
+3fffff70:  00000000 00000004 3ffeeb6c 3ffeece0  
+3fffff80:  00000000 3ffee9d4 3ffeeb6c 4020254a  
+3fffff90:  00000000 000c000f 00000000 00000000  
+3fffffa0:  000c000f 00000000 feefeffe feefeffe  
+3fffffb0:  3fffdad0 00000000 3ffeecb4 40204894  
+3fffffc0:  feefeffe feefeffe 3fffdab0 40100e7d  
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+4#-a|(�PvX	�~h~uPh 4�r(,+,*#A@�*4nzAl )z�~,j �r(%@#A.*�*,4nzAl )z�~,PZ8�~,PZ�P)l /'�rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Exception (28):
+epc1=0x40202a53 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffd0 offset: 0150
+3ffffef0:  00000000 00000001 3ffeeb6c 40203d42  
+3fffff00:  00000000 3ffee9d4 3ffeeb6c 40201444  
+3fffff10:  00000009 400042db 00000000 33383534  
+3fffff20:  40004b00 3ffefadc 00000000 40205df4  
+3fffff30:  00000000 fffffffc 000011e7 40205df4  
+3fffff40:  3ffe89e5 00000000 00000000 3fffff70  
+3fffff50:  3ffe8b27 fffffffc 000011e7 3ffeece0  
+3fffff60:  00000000 3ffee9d4 3ffee878 402016ff  
+3fffff70:  00000000 00000004 3ffeeb6c 3ffeece0  
+3fffff80:  00000000 3ffee9d4 3ffeeb6c 4020254a  
+3fffff90:  00000000 000c000f 00000000 00000000  
+3fffffa0:  000c000f 00000000 feefeffe feefeffe  
+3fffffb0:  3fffdad0 00000000 3ffeecb4 40204894  
+3fffffc0:  feefeffe feefeffe 3fffdab0 40100e7d  
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+4#-a|(�PvX	�~h~uPh 4�r(,+,*#A@�*4nzAl )z�~,j �r(%@#A.*�*,4nzAl )z�~,PZ8�~,PZ�P)l /'�rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Exception (28):
+epc1=0x40202a53 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffd0 offset: 0150
+3ffffef0:  00000000 00000001 3ffeeb6c 40203d42  
+3fffff00:  00000000 3ffee9d4 3ffeeb6c 40201444  
+3fffff10:  00000009 400042db 00000000 33383534  
+3fffff20:  40004b00 3ffefadc 00000000 40205df4  
+3fffff30:  00000000 fffffffc 000011e7 40205df4  
+3fffff40:  3ffe89e5 00000000 00000000 3fffff70  
+3fffff50:  3ffe8b27 fffffffc 000011e7 3ffeece0  
+3fffff60:  00000000 3ffee9d4 3ffee878 402016ff  
+3fffff70:  00000000 00000004 3ffeeb6c 3ffeece0  
+3fffff80:  00000000 3ffee9d4 3ffeeb6c 4020254a  
+3fffff90:  00000000 000c000f 00000000 00000000  
+3fffffa0:  000c000f 00000000 feefeffe feefeffe  
+3fffffb0:  3fffdad0 00000000 3ffeecb4 40204894  
+3fffffc0:  feefeffe feefeffe 3fffdab0 40100e7d  
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+4#-a|(�PvX	�~h~uPh 4�r(,+,*#A@�*4nzAl )z�~,j �r(%@#A.*�*,4nzAl )z�~,PZ8�~,PZ�P)l /'�rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Exception (28):
+epc1=0x40202a53 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffd0 offset: 0150
+3ffffef0:  00000000 00000001 3ffeeb6c 40203d42  
+3fffff00:  00000000 3ffee9d4 3ffeeb6c 40201444  
+3fffff10:  00000009 400042db 00000000 33383534  
+3fffff20:  40004b00 3ffefadc 00000000 40205df4  
+3fffff30:  00000000 fffffffc 000011e7 40205df4  
+3fffff40:  3ffe89e5 00000000 00000000 3fffff70  
+3fffff50:  3ffe8b27 fffffffc 000011e7 3ffeece0  
+3fffff60:  00000000 3ffee9d4 3ffee878 402016ff  
+3fffff70:  00000000 00000004 3ffeeb6c 3ffeece0  
+3fffff80:  00000000 3ffee9d4 3ffeeb6c 4020254a  
+3fffff90:  00000000 000c000f 00000000 00000000  
+3fffffa0:  000c000f 00000000 feefeffe feefeffe  
+3fffffb0:  3fffdad0 00000000 3ffeecb4 40204894  
+3fffffc0:  feefeffe feefeffe 3fffdab0 40100e7d  
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+4#-a|(�PvX	�~h~uPh 4�r(�,+,*#A@�*4nzAl )z�~,j �r(%@#A.*�*,4nzAl )z�~,PZ8�~,PZ�P)l /'�rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Exception (28):
+epc1=0x40202a53 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffd0 offset: 0150
+3ffffef0:  00000000 00000001 3ffeeb6c 40203d42  
+3fffff00:  00000000 3ffee9d4 3ffeeb6c 40201444  
+3fffff10:  00000009 400042db 00000000 33383534  
+3fffff20:  40004b00 3ffefadc 00000000 40205df4  
+3fffff30:  00000000 fffffffc 000011e7 40205df4  
+3fffff40:  3ffe89e5 00000000 00000000 3fffff70  
+3fffff50:  3ffe8b27 fffffffc 000011e7 3ffeece0  
+3fffff60:  00000000 3ffee9d4 3ffee878 402016ff  
+3fffff70:  00000000 00000004 3ffeeb6c 3ffeece0  
+3fffff80:  00000000 3ffee9d4 3ffeeb6c 4020254a  
+3fffff90:  00000000 000c000f 00000000 00000000  
+3fffffa0:  000c000f 00000000 feefeffe feefeffe  
+3fffffb0:  3fffdad0 00000000 3ffeecb4 40204894  
+3fffffc0:  feefeffe feefeffe 3fffdab0 40100e7d  
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+4#-a|(�PvX	�~h~uPh 4�r(,+,*#A@�*4nzAl )z�~,j �r(%@#A.*�*,4nzAl )z�~,PZ8�~,PZ�P)l /'�rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Exception (28):
+epc1=0x40202a53 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffd0 offset: 0150
+3ffffef0:  00000000 00000001 3ffeeb6c 40203d42  
+3fffff00:  00000000 3ffee9d4 3ffeeb6c 40201444  
+3fffff10:  00000009 400042db 00000000 33383534  
+3fffff20:  40004b00 3ffefadc 00000000 40205df4  
+3fffff30:  00000000 fffffffc 000011e7 40205df4  
+3fffff40:  3ffe89e5 00000000 00000000 3fffff70  
+3fffff50:  3ffe8b27 fffffffc 000011e7 3ffeece0  
+3fffff60:  00000000 3ffee9d4 3ffee878 402016ff  
+3fffff70:  00000000 00000004 3ffeeb6c 3ffeece0  
+3fffff80:  00000000 3ffee9d4 3ffeeb6c 4020254a  
+3fffff90:  00000000 000c000f 00000000 00000000  
+3fffffa0:  000c000f 00000000 feefeffe feefeffe  
+3fffffb0:  3fffdad0 00000000 3ffeecb4 40204894  
+3fffffc0:  feefeffe feefeffe 3fffdab0 40100e7d  
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+4#-a|(�PvX	�~h~uPh 4�r(,+,*#A�@�*4nzAl )z�~,j �r(%@#A.*�*,4nzAl )z�~,PZ8�~,PZ�P)l /'�rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+Searching 1-wire bus on net 0
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Exception (28):
+epc1=0x40202a53 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffd0 offset: 0150
+3ffffef0:  00000000 00000001 3ffeeb6c 40203d42  
+3fffff00:  00000000 3ffee9d4 3ffeeb6c 40201444  
+3fffff10:  00000009 400042db 00000000 33383534  
+3fffff20:  40004b00 3ffefadc 00000000 40205df4  
+3fffff30:  00000000 fffffffc 000011e7 40205df4  
+3fffff40:  3ffe89e5 00000000 00000000 3fffff70  
+3fffff50:  3ffe8b27 fffffffc 000011e7 3ffeece0  
+3fffff60:  00000000 3ffee9d4 3ffee878 402016ff  
+3fffff70:  00000000 00000004 3ffeeb6c 3ffeece0  
+3fffff80:  00000000 3ffee9d4 3ffeeb6c 4020254a  
+3fffff90:  00000000 000c000f 00000000 00000000  
+3fffffa0:  000c000f 00000000 feefeffe feefeffe  
+3fffffb0:  3fffdad0 00000000 3ffeecb4 40204894  
+3fffffc0:  feefeffe feefe

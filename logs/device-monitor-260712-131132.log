@@ -1,0 +1,4897 @@
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 2
+Board ID :2
+Server ID :10
+Mac Address :84:F3:EB:EE:42:CE
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+12
+Searching 1-wire bus on net 0
++ Group 0 : 28 8D FA 75 D0 01 3C 4C 
+End of search : 124ms
+Setup done
+Pairing request on channel 1
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 1
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 2
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 2
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 3
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 3
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 0, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 102, 0, 0, 0, 0, 0, 
+10
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.31
+Temperature : 25.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.31
+Temperature : 25.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.38
+Temperature : 25.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.31
+Temperature : 25.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.38
+Temperature : 25.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.38
+Temperature : 25.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.38
+Temperature : 25.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.38
+Temperature : 25.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.38
+Temperature : 25.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.44
+Temperature : 25.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.44
+Temperature : 25.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.44
+Temperature : 25.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.50
+Temperature : 25.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.50
+Temperature : 25.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.50
+Temperature : 25.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.56
+Temperature : 25.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.56
+Temperature : 25.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.56
+Temperature : 25.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.56
+Temperature : 25.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.63
+Temperature : 25.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.63
+Temperature : 25.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.63
+Temperature : 25.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.69
+Temperature : 25.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.69
+Temperature : 25.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.69
+Temperature : 25.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.75
+Temperature : 25.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.75
+Temperature : 25.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.75
+Temperature : 25.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.75
+Temperature : 25.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.75
+Temperature : 25.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.81
+Temperature : 25.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.88
+Temperature : 25.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.81
+Temperature : 25.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.88
+Temperature : 25.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.94
+Temperature : 25.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.94
+Temperature : 25.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.94
+Temperature : 25.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.94
+Temperature : 25.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.94
+Temperature : 25.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.94
+Temperature : 25.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 25.94
+Temperature : 25.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.00
+Temperature : 26.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.06
+Temperature : 26.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.13
+Temperature : 26.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.06
+Temperature : 26.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.13
+Temperature : 26.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.13
+Temperature : 26.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.19
+Temperature : 26.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.19
+Temperature : 26.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.25
+Temperature : 26.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.19
+Temperature : 26.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.19
+Temperature : 26.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.19
+Temperature : 26.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.19
+Temperature : 26.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.25
+Temperature : 26.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.25
+Temperature : 26.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.25
+Temperature : 26.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.25
+Temperature : 26.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.31
+Temperature : 26.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.31
+Temperature : 26.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.31
+Temperature : 26.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.31
+Temperature : 26.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.31
+Temperature : 26.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.31
+Temperature : 26.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.38
+Temperature : 26.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.31
+Temperature : 26.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.38
+Temperature : 26.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.38
+Temperature : 26.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.38
+Temperature : 26.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.44
+Temperature : 26.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.44
+Temperature : 26.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.44
+Temperature : 26.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.44
+Temperature : 26.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.44
+Temperature : 26.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.44
+Temperature : 26.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.56
+Temperature : 26.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.69
+Temperature : 26.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.69
+Temperature : 26.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.69
+Temperature : 26.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.69
+Temperature : 26.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.69
+Temperature : 26.69
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.81
+Temperature : 26.81
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.94
+Temperature : 26.94
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.00
+Temperature : 27.00
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.44
+Temperature : 27.44
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.56
+Temperature : 27.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.56
+Temperature : 27.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.50
+Temperature : 27.50
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.56
+Temperature : 27.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.56
+Temperature : 27.56
+Control Channel: D4
+1
+--- Heap size : 49448
+Ping Sended

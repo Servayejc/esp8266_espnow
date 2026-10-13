@@ -3,24 +3,31 @@
 
 #include "Arduino.h"
 
+/*
+#define CONTROL  0x20
+#define MCP23017_ADDR    0x21
+*/
 
 class Control  {      
   private:
-    bool isPresent; 
-	uint8_t output;
-	uint8_t level; 
+    bool isPresent = false; 
+	uint8_t output 	; 
+	void writeRegister(uint8_t reg, uint8_t value);
+	uint8_t readRegister(uint8_t reg);
   public: 
-    Control();
-	void init();            
+    Control();            
     void test();
-	bool present(uint8_t address);
+	bool present();
 	void reset();
 	uint8_t getStatus();
-	void setChannel(uint8_t channel, bool value);
+	void setCtrlChannel(uint8_t channel, bool value);
+	//void setOn(uint8_t channel);
+	//void setOff(uint8_t channel);
 	void setAuto(bool state);
 	bool isAuto();
-	void scanI2C();
+	void resetMCP017();
 	uint8_t getLevel();
+	void initLevel();
 };
 
 extern Control CTRL;

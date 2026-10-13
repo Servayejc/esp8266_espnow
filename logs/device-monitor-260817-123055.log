@@ -1,0 +1,1975 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v000465d0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Reset reason : 6
+RTCdatXC�*W�ѥ��5
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :2C:F4:32:63:7F:2D
+RTCdata size : 28
+Validity : 4583
+RTCdata present
+Validity : 4583
+Channel : 1
+DeepSleepCount
+5
+0
+4
+Searching 1-wire bus on net 0
+Searching 1-wire bus on net 0
+End of search : 123ms
+Setup done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+����������������������������������������������������������������-- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+����������������������������������������������������������������- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+����������������������������������������������������������������-- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+����������������������������������������������������������������-- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+����������������������������������������������������������������- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+����������������������������������������������������������������-- Pairing --- len = 
+34
+3
+Pairing done
+����������������������������������������������������������������-- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done
+--- Pairing --- len = 
+34
+3
+Pairing done

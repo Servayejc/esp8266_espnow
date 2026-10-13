@@ -1,0 +1,127 @@
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 2
+Board ID :2
+Server ID :10
+Mac Address :84:F3:EB:80:EF:FA
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+12
+Searching 1-wire bus on net 0
++ Group 0 : 28 8D FA 75 D0 01 3C 4C 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 0, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 113, 0, 0, 0, 0, 0, 
+10
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.19
+Temperature : 27.19
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+Control channel : 113 value : 0
+Control Channel: D227
+0
+--- Heap size : 49416
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.31
+Temperature : 27.31
+Control channel : 113 value : 0
+Control Channel: D227
+0

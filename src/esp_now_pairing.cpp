@@ -2,17 +2,18 @@
 #include <global.h>
 #include <Ticker.h>
 #include "Config.h"
-#include "utils.h"
+#include "Config.h"
 
-struct_dataRTC RTCdata = {};
+#include <EEPROM.h>
 
+uint16_t validity = 4583;
 // callback for receiving data type DATA
 void(*recv_cb)(uint8_t * mac, uint8_t *incomingData, uint8_t len) = NULL;
 uint8_t broadcastAddressX[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 uint8_t serverAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 
-void pairingPause();
-Ticker timerPairingPause(pairingPause, 10000); // 10 seconds
+//void pairingPause();
+//Ticker timerPairingPause(pairingPause, 3600*1000);
 
 PairingStatus pairingStatus = PAIR_REQUEST;
 int channelCount = 0;
@@ -29,53 +30,126 @@ unsigned long start;
 uint8_t channel = 1;
 
 
-void setChannel()
-{
-    
-    channel = RTCdata.WiFiChannel;
-    Serial.print("Channel from RTC :");
-    Serial.println(channel);
+
+void saveRTCdata(bool init){
+//ESP.rtcUserMemoryWrite(0, &counter, sizeof(counter)); 
+
+  RTCdata.validity = validity;
+    if (init) {  
+        for (byte i = 0; i < 12; i++){
+            RTCdata.setPoint[i] = 20;
+            RTCdata.curState[i] = 0;
+        }
+        RTCdata.channel = 1;
+        RTCdata.deepSleepCount = DEEP_SLEEP_COUNT;
+    }
+   system_rtc_mem_write(65, &RTCdata, sizeof(RTCdata));
+    //EEPROM.put(0,RTCdata);
+    //EEPROM.commit();
 }
 
-void saveChannel(int value)
+void readRTCdata(){
+  // TODO Read data from RTC Mem
+  Serial.print("RTCdata size : "); 
+  Serial.println(sizeof(RTCdata));
+  system_rtc_mem_read(65, &RTCdata, sizeof(RTCdata)); 
+  //EEPROM.begin(512);
+  //EEPROM.get(0, RTCdata);
+    Serial.print("Validity : " );
+    Serial.println(RTCdata.validity);
+ if (RTCdata.validity != validity) { 
+    Serial.println("RTCdata not present"); 
+    saveRTCdata(true);
+    EEPROM.get(0, RTCdata); 
+    //ESP.rtcUserMemoryRead (16, (uint32_t*) &RTCdata , sizeof(RTCdata ));
+  }else{
+    Serial.println("RTCdata present");
+    Serial.print("Validity : " );
+    Serial.println(RTCdata.validity);
+    Serial.print("Channel : " );
+    Serial.println(RTCdata.channel);
+    Serial.print("DeepSleepCount : ");
+    Serial.println(RTCdata.deepSleepCount);
+   
+    /*
+    for (byte i = 0; i < 12; i++){
+        Serial.print(" [ ");
+        Serial.print(RTCdata.setPoint[i]);
+        Serial.print(", ");
+        Serial.print(RTCdata.curState[i]);
+        Serial.print(" ] ");
+        Serial.print("-");
+    }
+    Serial.println();
+    */
+  }  
+}
+
+void setChannelFromRTC(){
+  channel = RTCdata.channel;
+  Serial.print("Channel set from RTC : ");
+  Serial.println(channel);
+}
+
+
+//uint32_t pingTimeLimit = 5000;
+
+// send ping to servewr
+void ping(){
+  /*if (rtt > pingTimeLimit) {  
+    #ifdef DEBUG_PING
+      Serial.println("Ping skipped, RTT is still high");
+    #endif
+    pairingStatus = PAIR_REQUEST;  // add a counter of failed
+    return;
+  }*/
+  pingData.msgType = PING;
+  pingData.PeerID = BOARD_ID;
+  pingData.pingTime = millis();
+  esp_now_send(serverAddress, (uint8_t *) &pingData, sizeof(pingData));
+  #ifdef DEBUG_PING
+    Serial.println("Ping Sended");
+  #endif
+}
+
+int getChannel()
 {
-    RTCdata.WiFiChannel = value;
-    saveRTCdata(false);
-    //uint32_t storeValue = value;
-    //ESP.rtcUserMemoryWrite(0, &storeValue, 1);
+    uint32_t result = 0;
+    ESP.rtcUserMemoryRead(0, &result, 1);
+    if (result < 1) result = 1;
+    if (result > 11) result = 1;
+    return (int)result;
+}
+
+void setChannel(int value)
+{
+    uint32_t storeValue = value;
+    ESP.rtcUserMemoryWrite(0, &storeValue, 1);
 }
 
 void printMAC(const uint8_t * mac_addr){
   char macStr[18];
   snprintf(macStr, sizeof(macStr), "%02x:%02x:%02x:%02x:%02x:%02x",
            mac_addr[0], mac_addr[1], mac_addr[2], mac_addr[3], mac_addr[4], mac_addr[5]);
+  macStr[17] = '\0';
   Serial.println(macStr);
 }
 
 // Callback when data is sent
 void OnDataSent(uint8_t *mac_addr, uint8_t sendStatus) {
-  //printMAC(mac_addr);
-  //Serial.println();
-  //Serial.print("Last Packet Send Status: ");
-  if (sendStatus == 0){
-    //Serial.println("Delivery success");
-    errCount = 0;
-  }
-  else{
-    Serial.println("Delivery fail");
-    if (autoPairing() == PAIR_PAIRED){
-        errCount++;
-        if (errCount > 3) {
-          Serial.println("Sending error, server may be restarted on new channel");
-          pairingStatus = PAIR_REQUEST;
-          errCount = 0; 
-        }
-    }   
-  }
+  #ifdef DEBUG_SEND_DATA
+    Serial.print("Last Packet Send Status: ");
+    if (sendStatus == 0){
+      Serial.print("Delivery success to ");
+      printMAC(mac_addr);
+      //Serial.println();
+    }
+  #endif
 }
 
 void printPairingData(){
   #ifdef DEBUG_PAIRING_DATA
+    Serial.println( "=================== Pairing Data ===============");
     Serial.print("msgType : "); 
     Serial.println(pairingData.msgType);
     Serial.print("netWork : "); 
@@ -83,9 +157,7 @@ void printPairingData(){
     Serial.print("macAddr : "); 
     for(int i = 0; i < 6; i++){
         Serial.print(pairingData.macAddr[i],HEX);
-        if (i<5){
-          Serial.print(":");
-        }
+        Serial.print(", ");
     } 
     Serial.println();
     Serial.print("Channel : ");
@@ -114,17 +186,21 @@ void printPairingData(){
 }
 
 void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
-  uint8_t type = incomingData[0];
   
-
+  uint8_t type = incomingData[0];
   #ifdef DEBUG_INCOMING_DATA
-    Serial.print("Size of message : ");
+    
+ /* Serial.print("Size of message : ");
     Serial.print(len);
+    Serial.print(" - Type: ");
+    Serial.println(type);
+
+
     Serial.print(" from ");
     printMAC(mac);
     Serial.println();
     Serial.print("MSG Type : "); 
-    Serial.println(type); 
+    Serial.println(type); */
   #endif
 
   switch (type) {
@@ -138,55 +214,55 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
   
   case RESET:
     Serial.println("=================== Reset Pairing ===============");
-    if (incomingData[1] == SERVER_ID){  //
-      //resetPairing();
-      ESP.restart();
+    if (incomingData[1] == SERVER_ID){ 
+      resetPairing();
+      digitalWrite(16, 0);
     }  
     break;
   
   case PAIRING:
-    Serial.print("--- Pairing to ");
-    Serial.print(pairingData.id);
-    Serial.println(" ---"); 
+    Serial.print("Pairing data length = ");
+    Serial.println(len);
+    printPairingData();
     memcpy (&pairingData, incomingData, sizeof(pairingData));
+    Serial.print("Server ID : "); 
+    Serial.println(pairingData.id);
+    if (true){// (len==46){
+      if (pairingData.network == SERVER_ID){                // the message comes from server
+        #ifdef DEBUG_PAIRING
+          Serial.print("Pairing done on channel ");
+          Serial.print(pairingData.channel);    // channel used by the server
+          Serial.print(" in ");
+          Serial.print(millis()-start);
+          Serial.print("ms");
+          Serial.print(" for ");
+          printMAC(pairingData.macAddr);
+        #endif
     
-    if (pairingData.id == SERVER_ID) {                // the message comes from server
-      #ifdef DEBUG_PAIRING
-        Serial.print("Pairing done on channel ");
-        Serial.print(pairingData.channel);    // channel used by the server
-        Serial.print(" in ");
-        Serial.print(millis()-start);
-        Serial.print("ms");
-        Serial.print(" for ");
-        printMAC(pairingData.macAddr);
-      #endif
-      
-      for(int i = 0; i < 12; i++){
-        RTCdata.control[i] = pairingData.controlNdx[i]; 
+        memcpy(serverAddress, pairingData.macAddr, 6);
+        esp_now_add_peer(pairingData.macAddr, ESP_NOW_ROLE_COMBO, pairingData.channel, NULL, 0); // add the server to the peer list 
+        setChannel(pairingData.channel);
+        pairingStatus = PAIR_PAIRED ;
+        // set the pairing status
+        //save channel in RTC memory
+        RTCdata.channel = pairingData.channel;
+        saveRTCdata(false);
+        Serial.println("Pairing done");
       }
-
-      printPairingData();
-   
-      memcpy(serverAddress, pairingData.macAddr, 6);
-      esp_now_add_peer(pairingData.macAddr, ESP_NOW_ROLE_COMBO, pairingData.channel, NULL, 0); // add the server to the peer list 
-      saveChannel(channel);
-      pairingStatus = PAIR_PAIRED ;
-                  // set the pairing status
-    }
+    } else {
+      Serial.print("Wrong pairing message received");
+      printMAC(mac);
+      Serial.println();
+    }  
     break;
-    
-    case PING:
-      memcpy (&pingData, incomingData, sizeof(pingData));
-      Serial.println("Ping Received");
-      esp_now_send(serverAddress, (uint8_t *) &pingData, sizeof(pingData));
-      Serial.println("Ping Responded");
-    break;
-  }  
+  
+  } 
 }
 
 void resetPairing(){
    pairingStatus = PAIR_REQUEST;
 }
+
 
 PairingStatus autoPairing(){
   //Serial.print(digitalRead(12));
@@ -213,6 +289,7 @@ PairingStatus autoPairing(){
     // set callback routines
     esp_now_register_send_cb(OnDataSent);
     esp_now_register_recv_cb(OnDataRecv);
+    esp_now_add_peer(broadcastAddressX, ESP_NOW_ROLE_SLAVE, 1, NULL, 0);
     
     // set pairing data to send to the server
     
@@ -221,8 +298,9 @@ PairingStatus autoPairing(){
     pairingData.id = BOARD_ID;     
     pairingData.channel = channel;
 
-    previousMillis = millis();
 
+    previousMillis = millis();
+    printPairingData();
     
     // add peer and send request
     esp_now_send(broadcastAddressX, (uint8_t *) &pairingData, sizeof(pairingData));
@@ -243,11 +321,8 @@ PairingStatus autoPairing(){
       if (channel > 11) {
         channel = 1;
       }
-      // try each channel maximun 2 times 
       channelCount ++;
       if (channelCount > 11*2){
-        timerPairingPause.start();
-        Serial.println("Pairing paused");
         pairingStatus = PAIR_PAUSED;
       } else {  
         pairingStatus = PAIR_REQUEST;
@@ -256,41 +331,26 @@ PairingStatus autoPairing(){
     break;
 
   case PAIR_PAUSED:
-    // in deepSleepMode, the module is battery powered
-    // stay in PAIR_POSED until next reboot after WakeUp 
-    if (deepSleepMode){
-      timerPairingPause.update();
-    }
-    break;  
+    Serial.println("Pairing paused");
+    doDeepSleepSec(3600); // 1 hour
+  break;  
+  
 
   case PAIR_PAIRED:
-    //Serial.println("Paired!");
-    digitalWrite(16, 1);
     break;
   }
+
   return pairingStatus;
 } 
 
-void pairingPause(){
-  if (timerPairingPause.elapsed()){
-    Serial.println("Pause Elapsed");
-    timerPairingPause.stop();
-    channelCount = 0;
-    pairingStatus = PAIR_REQUEST;
-  }  
-}   
-
-void init_esp_now(uint8_t WiFiChannel) {
+void init_esp_now() {
   // Set device as a Wi-Fi Station
-  channel = WiFiChannel; 
-  Serial.print("channel :");
-  Serial.println(channel); 
   WiFi.mode(WIFI_STA);
-  Serial.print("Board ID :");
+  Serial.print("Board ID : ");
   Serial.println(BOARD_ID);
-  Serial.print("Server ID :");
+  Serial.print("Server ID : ");
   Serial.println(SERVER_ID);
-  Serial.print("Mac Address :");
+  Serial.print("Mac Address : ");
   Serial.println(WiFi.macAddress());
   WiFi.disconnect();
 
@@ -303,10 +363,10 @@ void init_esp_now(uint8_t WiFiChannel) {
   // Register for a callback function that will be called when data is received
   esp_now_register_recv_cb(OnDataRecv);
   esp_now_register_send_cb(OnDataSent);
-  setChannel(); 
+  channel = getChannel();
 }
 
-/*uint8_t getDevicesCount(){
+uint8_t getDevicesCount(){
    uint8_t count = 0;
    for(int i = 0; i < 12; i++){
         if (pairingData.deviceTypes[i] < 255){
@@ -314,7 +374,7 @@ void init_esp_now(uint8_t WiFiChannel) {
         }
    }
    return count;     
-}*/
+}
 
 void register_recv_cb(void(*Callback_ptr)(uint8_t * mac, uint8_t *incomingData, uint8_t len)) {
   recv_cb = Callback_ptr;

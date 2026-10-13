@@ -1,0 +1,46 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v000468b0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starw
+Starting
+Board ID : 4
+Server ID : 10
+Mac Address : 2C:F4:32:63:7F:2D
+0
+4
+Searching 1-wire bus on net 0
+Searching 1-wire bus on net 0
+End of search : 106ms
+Setup done
+Pairing request on channel 11
+Pairing requested
+Pairing data length = 46
+Server ID : 10
+Pairing done
+--- Heap size : 50112
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temperature : 88.88
+--- Heap size : 50112
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temperature : 88.88
+--- Heap size : 50112
+Ping Sended
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temperature : 88.88

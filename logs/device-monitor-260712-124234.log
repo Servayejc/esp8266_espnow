@@ -1,0 +1,4866 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 1
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 1
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 2
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 2
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 3
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 3
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 4
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 4
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 5
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 5
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 6
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 6
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 7
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 7
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 8
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 8
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 9
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 9
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+Pairing request on channel 10
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 10
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 9489ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 344ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 345ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 561ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 334ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 336ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 338ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 341ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 344ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 342ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 345ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 345ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 562ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.19
+Temperature : 24.19
+DeepSleep mode ON
+I'm awake from 335ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 336ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 337ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 341ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 347ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 561ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 334ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 337ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 335ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 337ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 344ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 349ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 560ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 337ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 335ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.25
+Temperature : 24.25
+DeepSleep mode ON
+I'm awake from 338ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 342ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 345ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 346ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 347ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 561ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 333ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 338ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 340ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 344ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 343ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 348ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 559ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 336ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 336ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 337ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 340ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 340ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 342ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 341ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 347ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 346ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 24.31
+Temperature : 24.31
+DeepSleep mode ON
+I'm awake from 562ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.13
+Temperature : 27.13
+DeepSleep mode ON
+I'm awake from 340ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 29.56
+Temperature : 29.56
+DeepSleep mode ON
+I'm awake from 335ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 29.81
+Temperature : 29.81
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 29.38
+Temperature : 29.38
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 29.13
+Temperature : 29.13
+DeepSleep mode ON
+I'm awake from 345ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 28.81
+Temperature : 28.81
+DeepSleep mode ON
+I'm awake from 340ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 28.56
+Temperature : 28.56
+DeepSleep mode ON
+I'm awake from 344ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 28.31
+Temperature : 28.31
+DeepSleep mode ON
+I'm awake from 342ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 28.13
+Temperature : 28.13
+DeepSleep mode ON
+I'm awake from 347ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.94
+Temperature : 27.94
+DeepSleep mode ON
+I'm awake from 558ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.75
+Temperature : 27.75
+DeepSleep mode ON
+I'm awake from 333ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.56
+Temperature : 27.56
+DeepSleep mode ON
+I'm awake from 338ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.38
+Temperature : 27.38
+DeepSleep mode ON
+I'm awake from 339ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.25
+Temperature : 27.25
+DeepSleep mode ON
+I'm awake from 346ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 27.06
+Temperature : 27.06
+DeepSleep mode ON
+I'm awake from 342ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.88
+Temperature : 26.88
+DeepSleep mode ON
+I'm awake from 342ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.75
+Temperature : 26.75
+DeepSleep mode ON
+I'm awake from 344ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.63
+Temperature : 26.63
+DeepSleep mode ON
+I'm awake from 345ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.50
+Temperature : 26.50
+DeepSleep mode ON
+I'm awake from 350ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.38
+Temperature : 26.38
+DeepSleep mode ON
+I'm awake from 562ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.25
+Temperature : 26.25
+DeepSleep mode ON
+I'm awake from 335ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 124ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.13
+Temperature : 26.13
+DeepSleep mode ON
+I'm awake from 334ms , but I'm going into deep sleep mode for 10 seconds
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00046cb0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Starting
+Board ID : 4
+Board ID :4
+Server ID :10
+Mac Address :24:D7:EB:CA:71:6E
+RTCdata size : 26
+Validity : 4583
+RTCdata present
+Validity : 4583
+0
+4
+Searching 1-wire bus on net 0
++ Group 0 : 28 FF 71 B2 C0 17 01 F1 
+End of search : 123ms
+Setup done
+Pairing request on channel 11
+msgType : 0
+netWork : 10
+macAddr : 0, 0, 0, 0, 0, 0, 
+Channel : 11
+deviceTypes : 0, 0, 0, 0, 0, 0, 
+deviceId : 0, 0, 0, 0, 0, 0, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+Pairing requested
+--- Pairing ---
+46
+msgType : 0
+netWork : 10
+macAddr : EC, E3, 34, CE, 3C, E5, 
+Channel : 11
+deviceTypes : 1, 255, 255, 255, 255, 255, 
+deviceId : 1, 255, 255, 255, 255, 255, 
+controlNdx : 0, 0, 0, 0, 0, 0, 
+10
+DeepSleep mode OFF
+Get Readings for Ndx : 0
+Temp = 26.06
+Temperature : 26.06
+DeepSleep mode ON
+I'm awake from 337ms , but I'm going into deep sleep mode for 10 seconds

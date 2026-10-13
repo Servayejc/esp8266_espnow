@@ -1,0 +1,63 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00044da0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Reset reason : 5
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00044da0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Reset reason : 5
+
+ ets Jan  8 2013,rst cause:5, boot mode:(3,6)
+
+ets_main.c 
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3424, room 16 
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8 
+tail 0
+chksum 0x2b
+csum 0x2b
+v00044da0
+~ld
+rf cal sector: 1020
+freq trace enable 0
+rf[112] : 0�
+Reset reason : 5
+
+ ets Jan  8 2013,rst cause:5, boot mode:(3,6)
+
+ets_main.c 
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
